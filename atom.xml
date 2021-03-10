@@ -1,0 +1,572 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Peter Swimm</title>
+  
+  
+  <link href="http://peterswimm.com/atom.xml" rel="self"/>
+  
+  <link href="http://peterswimm.com/"/>
+  <updated>2020-08-28T13:57:43.413Z</updated>
+  <id>http://peterswimm.com/</id>
+  
+  <author>
+    <name>Peter Swimm</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Snowkiss Guitar now available</title>
+    <link href="http://peterswimm.com/2020/08/28/Snowkiss-Guitar-now-available/"/>
+    <id>http://peterswimm.com/2020/08/28/Snowkiss-Guitar-now-available/</id>
+    <published>2020-08-28T13:22:40.000Z</published>
+    <updated>2020-08-28T13:57:43.413Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="/images/492-snowkiss-square.jpg" alt="Product Art"></p><p>I had the chance to create a demo track for the fantastic new sampled instrument <a href="https://shop.karoryfer.com/snowkiss-guitar">Snowkiss Guitar</a>. I’ll let the website explain it:</p><blockquote><p>A very indie virtual guitar - a boutique offset-body style, and with the sounds you’ll need for making weird noisy music all included. After sampling a few cheap guitars, we went for a really nice one. This Momose MJM has the traditional bridge and tailpiece, and Mojotone pickups modeled after pickups from above-average 1959 Fender Jazzmasters. It also looks really nice, with the snowflake and cherry petal inlays, the figured cherry top, and the white burst finish.</p></blockquote><p>Over a quick coffee break, I hooked up an instance of the plug through a midi arpeggiator, and ran it through Native Instrument’s Guitar Rig 5. Super fun and quick results! You can view the demo here:</p><div class="video-container"><iframe src="https://www.youtube.com/embed/wtQ6FHzx91Y" frameborder="0" loading="lazy" allowfullscreen></iframe></div><p>The plugin is available now with an intro price of $19 until September 30th, 2020. Regular price: $39. You can get it at the <a href="https://shop.karoryfer.com/snowkiss-guitar">Karoryfer Store</a></p><p>I want to do more demos!</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;&lt;img src=&quot;/images/492-snowkiss-square.jpg&quot; alt=&quot;Product Art&quot;&gt;&lt;/p&gt;
+&lt;p&gt;I had the chance to create a demo track for the fantastic new sample</summary>
+      
+    
+    
+    
+    <category term="Music" scheme="http://peterswimm.com/categories/Music/"/>
+    
+    <category term="Releases" scheme="http://peterswimm.com/categories/Music/Releases/"/>
+    
+    
+    <category term="Karoryfer" scheme="http://peterswimm.com/tags/Karoryfer/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Built with Botkit: Welcomebot</title>
+    <link href="http://peterswimm.com/2017/01/12/built-with-botkit/"/>
+    <id>http://peterswimm.com/2017/01/12/built-with-botkit/</id>
+    <published>2017-01-12T12:57:15.000Z</published>
+    <updated>2020-04-06T14:21:44.518Z</updated>
+    
+    <content type="html"><![CDATA[<p><em>This post originally appeared on the <a href="https://blog.howdy.ai/built-with-botkit-studio-welcomebot-c38c545ecaf8">the Howdy.ai company blog</a></em></p><p>We made a bot for our developer community that tells you all about making bots for Slack and other platforms!</p><p><img src="https://peterswimm.com/images/medium/1_HaYJQ_2O_z5xhhjepEQ4jA.gif" alt="For new users to our Bot Developer Hangout, the top channels are a few clicks away!"><em>For new users to our Bot Developer Hangout, the top channels are a few clicks away!</em></p><p>As part of <a href="https://github.com/howdyai">Howdy’s open source efforts</a>, we curate a public slack <a href="http://dev4slack.xoxco.com/">bot building community named The Bot Developer Hangout.</a> Despite the name, it actually contain discussions from all over the bot making world, with channels dedicated to all things Slack, Facebook, Cisco Spark, Microsoft Botbuilder and more.</p><p>Topics can range from the basics of standing up our <a href="https://github.com/howdyai/botkit-starter-slack">Botkit starter kits</a> on your Slack team, to scaling your commercial bot across dozens of servers, to best practices from everything to greetings to color choice. Almost everyone there has either built a bot, or really wants to build a bot. We are very lucky to have many friendly and successful developers volunteer their time to share their knowledge and work with all kinds of users.</p><p>When you have a no barriers entryway into a complex concept like bot development, making an onboarding resource that works for newcomers and experts alike can seem daunting. <strong>Assume too much, and you can easily confuse and overwhelm. Too little, and you lead to boredom and uselessness.</strong> To create a great baseline experience in our community, we created <strong>Welcomebot</strong>.</p><p><strong>Welcomebot was designed to be a concierge to new users joining our slack community.</strong> Through it we hope to cut down on the uncertainty of where to ask your getting started questions, illuminate which channels to look for examples and existing tools, and in general make the onboarding experiencing informative and easy for the entire spectrum of users.</p><p><img src="https://peterswimm.com/images/medium/1_rrHSxXm6l97iesiJJTCegg.png" alt=""></p><p>Built using our new <a href="https://studio.botkit.ai">**Botkit Studio</a>** tool, we will be able to quickly respond to necessary content updates, user experience tweaks and fixes, and adding cool new features to the bot. For me, a non-native coder, having access to a visual CMS for scripting the bots word was great experience, and quickly proved to be a powerful tool in designing targeted information via the constraints of Slack chat formatting.</p><p>Welcomebot main functions are the following:</p><ul><li><p>When a user joins, it sends them a DM.</p></li><li><p>It responds to things like ‘help’ and ‘get started’ and gives suggestions about channels and resources.</p></li><li><p>It informs people about the code of conduct and the rules.</p></li></ul><p>If you want to build a bot like this for your team, <a href="https://medium.com/slack-developer-blog/botkit-is-better-with-slacks-events-api-f9a27e051591#.q58s6b1t6">a great starting point is this blog post</a> by my colleague <a href="undefined">Eric Soelzer</a>.</p><p>Using the tools you make, and seeing real-time usage and reaction from your community is an intensely satisfying process, and will continue to be an important part of our internal design processes going forward.</p><p><strong>Are you interested in taking Studio for a test drive</strong>? <a href="https://howdyai.typeform.com/to/JNTm22">Sign up here </a>to be added to our developer preview or to be notified when the tool is available to the public!</p><p><em><a href="https://botkit.ai">Botkit</a> is the leading open source tool for developing bots for Slack, Facebook and other major messaging platforms. <a href="https://github.com/howdyai">Dive into our extensive documentation, examples and starter projects</a>, then <a href="http://dev4slack.xoxco.com/">join 3500 other bot developers</a> in our community chat room.</em></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;&lt;em&gt;This post originally appeared on the &lt;a href=&quot;https://blog.howdy.ai/built-with-botkit-studio-welcomebot-c38c545ecaf8&quot;&gt;the Howdy.ai co</summary>
+      
+    
+    
+    
+    <category term="Writing" scheme="http://peterswimm.com/categories/Writing/"/>
+    
+    <category term="Conversational AI" scheme="http://peterswimm.com/categories/Writing/Conversational-AI/"/>
+    
+    <category term="Botkit" scheme="http://peterswimm.com/categories/Writing/Conversational-AI/Botkit/"/>
+    
+    
+    <category term="Marketing" scheme="http://peterswimm.com/tags/Marketing/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Talkabot Talks: Christian Brucculeri, CEO and Director of Snaps</title>
+    <link href="http://peterswimm.com/2016/09/01/talkabot-talks-brucculeri/"/>
+    <id>http://peterswimm.com/2016/09/01/talkabot-talks-brucculeri/</id>
+    <published>2016-09-01T11:57:15.000Z</published>
+    <updated>2020-04-06T17:17:52.371Z</updated>
+    
+    <content type="html"><![CDATA[<p><em>This post originally appeared on the <a href="https://medium.com/talkabot/talkabot-talks-2016-round-up-cdfeb0a0739">the Howdy.ai company blog</a> to promote the <a href="https://talkabot.ai/">Talkabot Conference</a></em></p><p><a href="https://www.linkedin.com/in/christianbrucculeri">*Christian</a> and the team at <a href="https://makesnaps.com/">Snaps</a>, help global brands engage their customers across messaging platforms. He is one of our featured speakers at next month’s <a href="https://talkabot.ai/">Talkabot Conference</a>, and took some time to discuss with us the emerging bot landscape and opportunities for brands in messaging:*</p><h3 id="How-did-you-first-become-aware-of-the-potential-of-chat-bots-in-the-mobile-messaging-space"><a href="#How-did-you-first-become-aware-of-the-potential-of-chat-bots-in-the-mobile-messaging-space" class="headerlink" title="How did you first become aware of the potential of chat bots in the mobile messaging space?"></a><strong><em>How did you first become aware of the potential of chat bots in the mobile messaging space?</em></strong></h3><p>I had seen bots on WeChat a few years ago — thought they were interesting but didn’t really dig in. When I joined Snaps, <a href="http://vivianrosenthal.com/">the founder</a> and I had a lot of conviction that the messaging space was going to be the next big space for brands, so we launched a content platform for brands to engage in messaging and stayed close to developments in the space from then on.</p><p>There were two events in 2015 that got us more interested specifically in bots. The first was our initial activations on <a href="https://bots.kik.com">Kik</a>. With Burger King, we brought one of the first brand ChatBots to the platform. We saw phenomenal results. Read rates, response rates, share rates were all incredible.</p><p>The second event was an early meeting with <a href="https://developers.facebook.com/blog/post/2016/04/12/bots-for-messenger/">Facebook</a>, where we had a long conversation with a few folks on their team about bots, what we had learned to date, etc. We had pretty strong conviction by the middle of last year that bots were going to roll out in a bigger way to the US market in 2016, and that we should be building into that future.</p><h3 id="What-opportunities-do-you-see-for-brands-as-messaging-applications-race-to-add-rich-experiences-like-bots-to-their-platforms"><a href="#What-opportunities-do-you-see-for-brands-as-messaging-applications-race-to-add-rich-experiences-like-bots-to-their-platforms" class="headerlink" title="What opportunities do you see for brands as messaging applications race to add rich experiences like bots to their platforms?"></a><strong><em>What opportunities do you see for brands as messaging applications race to add rich experiences like bots to their platforms?</em></strong></h3><p>When we look a the messaging space from a brand lens, we think about their opportunity in two buckets.The first bucket is around capitalizing on the use of rich media in messaging apps for branding opportunities. We’ve driven well over 100 million shares of branded content in messaging apps through our products focused on emoji, stickers, GIFs and videos. It’s been a huge win for our brand partners looking tell stories and spread word-of-mouth marketing in the space.</p><p>The second bucket is conversational UI, and we’ve built a logic engine and do relatively complex server integrations to help brands deploy bots in places like Facebook Messenger, Kik and Skype. We see bots as an avenue to entertain, to inform, to personalize and to maintain relationships with customers.</p><h3 id="What-the-the-challenges-that-face-brands-as-they-deal-more-individually-with-potential-users-across-these-platforms"><a href="#What-the-the-challenges-that-face-brands-as-they-deal-more-individually-with-potential-users-across-these-platforms" class="headerlink" title="What the the challenges that face brands as they deal more individually with potential users across these platforms?"></a><strong><em>What the the challenges that face brands as they deal more individually with potential users across these platforms?</em></strong></h3><p>It depends on the brand’s strategy. I would submit that brands looking to <em>replace</em> (vs. augment)* *components of their customer service operations with bot automation are going to find all sorts of challenges. But the biggest challenge right now for brands and bots are executing experiences that consumers actually want to engage with at scale. I think this is as much a creative endeavor as a technical one.</p><h3 id="Have-you-ever-been-surprised-about-something-you-discovered-from-a-mobile-messaging-interaction"><a href="#Have-you-ever-been-surprised-about-something-you-discovered-from-a-mobile-messaging-interaction" class="headerlink" title="Have you ever been surprised about something you discovered from a mobile messaging interaction?"></a><strong><em>Have you ever been surprised about something you discovered from a mobile messaging interaction?</em></strong></h3><p>I’m always pleasantly surprised when brands put humans on the other side of a branded conversation. Scale is obviously difficult, but I love texting with businesses and I’d like to do more of it.</p><h3 id="If-there-was-one-thing-you-could-ask-a-bot-to-do-for-you-that-can’t-be-done-today-what-would-it-be"><a href="#If-there-was-one-thing-you-could-ask-a-bot-to-do-for-you-that-can’t-be-done-today-what-would-it-be" class="headerlink" title="If there was one thing you could ask a bot to do for you that can’t be done today, what would it be?"></a><strong><em>If there was one thing you could ask a bot to do for you that can’t be done today, what would it be?</em></strong></h3><p>Put my kids to bed.</p><p><em>Join us Sept 28–29th in Austin, Texas to discuss bots, conversational software and community for the first ever <a href="https://talkabot.ai/">Talkabot Conference</a>. Full track tickets are still available but going fast!</em></p><p><em>Follow <a href="http://twitter.com/talkabotconf">@TalkabotConf</a> for the latest announcements and news.</em></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;&lt;em&gt;This post originally appeared on the &lt;a href=&quot;https://medium.com/talkabot/talkabot-talks-2016-round-up-cdfeb0a0739&quot;&gt;the Howdy.ai comp</summary>
+      
+    
+    
+    
+    <category term="Writing" scheme="http://peterswimm.com/categories/Writing/"/>
+    
+    <category term="Community" scheme="http://peterswimm.com/categories/Writing/Community/"/>
+    
+    <category term="Talkabot" scheme="http://peterswimm.com/categories/Writing/Community/Talkabot/"/>
+    
+    
+    <category term="Marketing" scheme="http://peterswimm.com/tags/Marketing/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Talkabot Talks: Lauren Golembiewski, Co-Founder of Voxable</title>
+    <link href="http://peterswimm.com/2016/09/01/talkabot-talks-golembiewski/"/>
+    <id>http://peterswimm.com/2016/09/01/talkabot-talks-golembiewski/</id>
+    <published>2016-09-01T11:57:15.000Z</published>
+    <updated>2020-04-07T16:52:24.384Z</updated>
+    
+    <content type="html"><![CDATA[<p><em>This post originally appeared on the <a href="https://medium.com/talkabot/talkabot-talks-2016-round-up-cdfeb0a0739">the Howdy.ai company blog</a> to promote the <a href="https://talkabot.ai/">Talkabot Conference</a></em></p><p><a href="http://www.laurengolem.com/">*Lauren</a> , with her team over at <a href="https://voxable.io/">Voxable</a>, developed <a href="https://ghostbot.burnerapp.com/#/">Ghostbost</a>, a text message autoresponder that anyone can add to the Burner app to handle “unwanted, aggressive, or abusive texting situations.” In advance of her talk at the <a href="https://talkabot.ai/">Talkabot Conference</a>, Lauren discusses feedback to Ghostbot, the needs for bot powered personal firewalls, and the difficulties in gauging intent when machine interpreting human interactions.*</p><h3 id="What-kind-of-feedback-have-you-gotten-from-users-of-Ghostbot"><a href="#What-kind-of-feedback-have-you-gotten-from-users-of-Ghostbot" class="headerlink" title="What kind of feedback have you gotten from users of Ghostbot?"></a><strong>What kind of feedback have you gotten from users of Ghostbot?</strong></h3><p>We’ve gotten a lot of positive feedback. I think the best feedback we’ve gotten is from users who were right in our target audience. The biggest fans were mainly women, who indeed experience online or messaging harassment in the dating scene. They have actually found it pretty useful to not have to deal with the can’t-win situations they can find themselves in while communicating with somewhat irrational dates.</p><p>Even for women we’ve talked to who are off the market, the resounding feedback we heard about both Ghostbot and Burner is, “I wish I had that when I was dating!”</p><p>There has been some negative response, though.</p><blockquote><h1 id="Some-folks-were-uncomfortable-with-perpetuating-what-they-thought-to-be-the-emotionally-immature-practice-of-ghosting-a-person-and-creating-technology-to-facilitate-it-Only-male-users-were-actually-voicing-that-concern-after-we-released-it"><a href="#Some-folks-were-uncomfortable-with-perpetuating-what-they-thought-to-be-the-emotionally-immature-practice-of-ghosting-a-person-and-creating-technology-to-facilitate-it-Only-male-users-were-actually-voicing-that-concern-after-we-released-it" class="headerlink" title="Some folks were uncomfortable with perpetuating what they thought to be the emotionally immature practice of ghosting a person, and creating technology to facilitate it. Only male users were actually voicing that concern after we released it."></a>Some folks were uncomfortable with perpetuating what they thought to be the emotionally immature practice of ghosting a person, and creating technology to facilitate it. Only male users were actually voicing that concern after we released it.</h1></blockquote><p>Those were concerns we had going into the project, but when we examined the <a href="https://www.instagram.com/byefelipe/?hl=en">hostile climate women face in dating</a>, we knew the emotional maturity discussion went beyond ghosting.</p><h3 id="What-were-some-of-the-unforeseen-challenges-you-ran-into-once-Ghostbot-was-live-in-the-world"><a href="#What-were-some-of-the-unforeseen-challenges-you-ran-into-once-Ghostbot-was-live-in-the-world" class="headerlink" title="What were some of the unforeseen challenges you ran into once Ghostbot was live in the world?"></a><strong>What were some of the unforeseen challenges you ran into once Ghostbot was live in the world?</strong></h3><p>The biggest challenge was just letting the bot do it’s thing, and not constantly watching it and trying to train everything that confused the NLP. But, we decided to take a step back and let Ghostbot do Ghostbot for a bit before we started training it a ton. It was a nice break. Other than the continued training, we had no big hurdles. There are a couple of bugs that come up here and there.</p><h3 id="Ghostbot-has-been-called-“a-personal-firewall”-how-important-do-you-think-NLP-driven-Bots-will-become-to-protect-people-as-society-becomes-increasingly-connected-via-social-networks"><a href="#Ghostbot-has-been-called-“a-personal-firewall”-how-important-do-you-think-NLP-driven-Bots-will-become-to-protect-people-as-society-becomes-increasingly-connected-via-social-networks" class="headerlink" title="Ghostbot has been called “a personal firewall”, how important do you think NLP driven Bots will become to protect people as society becomes increasingly connected via social networks?"></a><strong>Ghostbot has been called “a personal firewall”, how important do you think NLP driven Bots will become to protect people as society becomes increasingly connected via social networks?</strong></h3><p>This will become massive the more that we connect the intimate details of our lives to social networks. Social networks have basically exploited our personal data in order to sell that data to big brands so those brands can sell us more things.</p><blockquote><h1 id="I-know-there-are-a-lot-of-folks-who-lament-that-the-best-minds-of-our-generation-are-just-inventing-new-ways-to-advertise"><a href="#I-know-there-are-a-lot-of-folks-who-lament-that-the-best-minds-of-our-generation-are-just-inventing-new-ways-to-advertise" class="headerlink" title="I know there are a lot of folks who lament that the best minds of our generation are just inventing new ways to advertise."></a>I know there are a lot of folks who lament that the best minds of our generation are just inventing new ways to advertise.</h1></blockquote><p>The thing is, that even as that becomes more evident to us, like when the Radiolab podcast did a <a href="http://www.radiolab.org/story/trust-engineers/">story about Facebook’s social engineering</a>, the average consumer doesn’t really seem to mind. I think we might reach a point where this intimacy that we allow, not just with other humans, but with companies and brands and governments, will encroach on our sense of well-being.</p><p>Bots as personal firewalls might be able to alleviate that for us. BigHealthInsuranceCompany™ wants to create a bot to assess my insurance claims? Ok, I’ll hire a bot to take care of the insurance claim process, and the appeals process.</p><h3 id="Often-it-is-difficult-to-discern-user’s-intent-when-communicating-via-text-based-inputs-how-does-voice-interaction-open-up-nuance-as-an-indicator-for-how-human-machine-interaction-unfolds"><a href="#Often-it-is-difficult-to-discern-user’s-intent-when-communicating-via-text-based-inputs-how-does-voice-interaction-open-up-nuance-as-an-indicator-for-how-human-machine-interaction-unfolds" class="headerlink" title="Often it is difficult to discern user’s intent when communicating via text based inputs, how does voice interaction open up nuance as an indicator for how human-machine interaction unfolds?"></a><strong>Often it is difficult to discern user’s intent when communicating via text based inputs, how does voice interaction open up nuance as an indicator for how human-machine interaction unfolds?</strong></h3><p>There are a lot of aspects of voice that expand the interaction space quite tremendously, and they exist on the machine and the human side of the interaction. Voice agents can take on personality that go beyond the words they use with sarcasm, pauses, inflection, and emotion.</p><blockquote><h1 id="Voice-agents-have-the-opportunity-to-be-somewhat-omnipresent-as-long-as-there-is-a-microphone-and-speaker-that-is-connected-to-the-agent-in-range"><a href="#Voice-agents-have-the-opportunity-to-be-somewhat-omnipresent-as-long-as-there-is-a-microphone-and-speaker-that-is-connected-to-the-agent-in-range" class="headerlink" title="Voice agents have the opportunity to be somewhat omnipresent, as long as there is a microphone and speaker that is connected to the agent in range."></a>Voice agents have the opportunity to be somewhat omnipresent, as long as there is a microphone and speaker that is connected to the agent in range.</h1></blockquote><p>This means that voice agents can be employed in contexts that we haven’t explored by being tied to manual input. They can be used while performing surgery, doing mechanical work, cooking food, or being a mom.</p><p>On the human side, we can interact with a more immediate form of input than typing. That input, beyond its intent, can be encoded with other information. There are emerging technologies like voice print that analyzes your voice and uses its distinct qualities as a form of authentication. Voice analysis in general is already being used for lie detection, diagnostics, and fraud detection. This emotional analysis of voices will become an important signal within future voice interfaces.</p><p><em>Join us Sept 28–29th in Austin, Texas to discuss bots, conversational software and community for the first ever <a href="https://talkabot.ai/">Talkabot Conference</a>. Full track tickets are still available but going fast!</em></p><p><em>Follow <a href="http://twitter.com/talkabotconf">@TalkabotConf</a> for the latest announcements and news.</em></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;&lt;em&gt;This post originally appeared on the &lt;a href=&quot;https://medium.com/talkabot/talkabot-talks-2016-round-up-cdfeb0a0739&quot;&gt;the Howdy.ai comp</summary>
+      
+    
+    
+    
+    <category term="Writing" scheme="http://peterswimm.com/categories/Writing/"/>
+    
+    <category term="Community" scheme="http://peterswimm.com/categories/Writing/Community/"/>
+    
+    <category term="Talkabot" scheme="http://peterswimm.com/categories/Writing/Community/Talkabot/"/>
+    
+    
+    <category term="Marketing" scheme="http://peterswimm.com/tags/Marketing/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Talkabot Talks: Robert Hoffer, co-founder of Activebuddy</title>
+    <link href="http://peterswimm.com/2016/09/01/talkabot-talks-hoffer/"/>
+    <id>http://peterswimm.com/2016/09/01/talkabot-talks-hoffer/</id>
+    <published>2016-09-01T11:57:15.000Z</published>
+    <updated>2020-04-06T17:16:32.899Z</updated>
+    
+    <content type="html"><![CDATA[<p><em>This post originally appeared on the <a href="https://medium.com/talkabot/talkabot-talks-2016-round-up-cdfeb0a0739">the Howdy.ai company blog</a> to promote the <a href="https://talkabot.ai/">Talkabot Conference</a></em></p><p><em>Robert has co-founded a number of internet companies, but none perhaps as important to the bot space as <a href="https://en.wikipedia.org/wiki/Colloquis">ActiveBuddy</a>, who’s <a href="https://en.wikipedia.org/wiki/SmarterChild">SmarterChild</a> was one of the first major bots for instant messaging and SMS platforms in the early 2000’s. Along with Peter Levitan he will speak with <a href="https://medium.com/@benbrown">Howdy’s Ben Brown</a> at <a href="https://talkabot.ai/">Talkabot Conference</a> about how the future of bots are rooted in the history of early bot pioneers.</em></p><h3 id="In-your-pitch-video-your-team-was-very-bullish-on-the-potential-of-chatbots-as-a-concept-What-made-you-so-sure-about-it’s-potential-back-then"><a href="#In-your-pitch-video-your-team-was-very-bullish-on-the-potential-of-chatbots-as-a-concept-What-made-you-so-sure-about-it’s-potential-back-then" class="headerlink" title="In your pitch video, your team was very bullish on the potential of chatbots as a concept. What made you so sure about it’s potential back then?"></a>In your <a href="https://www.youtube.com/watch?v=cB8VQ7IiP50">pitch video,</a> your team was very bullish on the potential of chatbots as a concept. What made you so sure about it’s potential back then?</h3><p>We were certain because we were heavy users of both the Web and Instant messaging. The prototype of SmarterChild — ActiveBuddy — the company’s original namesake — worked incredibly well. Conversational user interface benefits back then were even more significant as the Web was so slow — most people still used dial up connections; so text was even more compelling by contrast.</p><h3 id="How-important-was-natural-language-input-to-Smarterchild’s-popularity"><a href="#How-important-was-natural-language-input-to-Smarterchild’s-popularity" class="headerlink" title="How important was natural language input to Smarterchild’s popularity?"></a>How important was natural language input to Smarterchild’s popularity?</h3><p>Super important. But even back then we didn’t consider ourselves to be a ‘natural language’ we were a chat and messaging company. And chat is different than natural language. So we focused our energy and attention on being really good at understanding and responding to chat in the most natural way possible within a messaging context.</p><h3 id="Do-you-think-today’s-bot-users-have-higher-expectations-with-regards"><a href="#Do-you-think-today’s-bot-users-have-higher-expectations-with-regards" class="headerlink" title="Do you think today’s bot users have higher expectations with regards"></a>Do you think today’s bot users have higher expectations with regards</h3><p>to bot intelligence compared to SmarterChild’s users?</p><p>They should — but it’s hard to imagine that they do. With rare exception the current crop of bots are playing catch up to where we left SmarterChild development half a decade ago. Machine learning and NLU systems only go so far — the technology is part of the equation but editorial and context — writing in a personality — is the other part of the equation. NO bot so far has come close in this regard.</p><h3 id="Compared-to-the-1990’s-the-market-for-bot-products-is-arguably-wider"><a href="#Compared-to-the-1990’s-the-market-for-bot-products-is-arguably-wider" class="headerlink" title="Compared to the 1990’s, the market for bot products is arguably wider"></a>Compared to the 1990’s, the market for bot products is arguably wider</h3><p>today. What do you think a SmarterChild would look like in 2016?</p><p>He would have the world’s most amazing smooth jet-black case machine tooled to perfection and design embodying the best aspects of SmarterChild and of course know everything about everything in every language.</p><p><em>Join us Sept 28–29th in Austin, Texas to discuss bots, conversational software and community for the first ever <a href="https://talkabot.ai/">Talkabot Conference</a>. Full track tickets are still available but going fast!</em></p><p><em>Follow <a href="http://twitter.com/talkabotconf">@TalkabotConf</a> for the latest announcements and news.</em></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;&lt;em&gt;This post originally appeared on the &lt;a href=&quot;https://medium.com/talkabot/talkabot-talks-2016-round-up-cdfeb0a0739&quot;&gt;the Howdy.ai comp</summary>
+      
+    
+    
+    
+    <category term="Writing" scheme="http://peterswimm.com/categories/Writing/"/>
+    
+    <category term="Community" scheme="http://peterswimm.com/categories/Writing/Community/"/>
+    
+    <category term="Talkabot" scheme="http://peterswimm.com/categories/Writing/Community/Talkabot/"/>
+    
+    
+    <category term="Marketing" scheme="http://peterswimm.com/tags/Marketing/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Talkabot Talks: Lucas Ives, Product Team, Pullstring</title>
+    <link href="http://peterswimm.com/2016/09/01/talkabot-talks-ives/"/>
+    <id>http://peterswimm.com/2016/09/01/talkabot-talks-ives/</id>
+    <published>2016-09-01T11:57:15.000Z</published>
+    <updated>2020-04-07T16:51:31.001Z</updated>
+    
+    <content type="html"><![CDATA[<p><em>This post originally appeared on the <a href="https://medium.com/talkabot/talkabot-talks-2016-round-up-cdfeb0a0739">the Howdy.ai company blog</a> to promote the <a href="https://talkabot.ai/">Talkabot Conference</a></em></p><p><a href="https://www.linkedin.com/in/lucasives">*Lucas</a> will be speaking at <a href="http://talkabot.ai">Talkabot Conference</a> representing the folks at <a href="https://pullstring.com">Pullstring</a>, “an entertainment and technology company that combines art and science to enable computer conversation with characters”. With <a href="https://pullstring.ai/">their new publishing platform</a>, developers can easily create bots with personality.*</p><h3 id="What-is-the-mission-that-drives-PullString"><a href="#What-is-the-mission-that-drives-PullString" class="headerlink" title="What is the mission that drives PullString?"></a><strong>What is the mission that drives PullString?</strong></h3><p>Our mission is to provide the most usable and powerful tools for the best creators of computer conversation in the world through a combination of art and science.</p><p><img src="https://peterswimm.com/images/medium/1__wbH0C6zjszz7XCOCa_01w.jpeg" alt=""></p><h3 id="What-can-Interactive-Storytelling-teach-us-about-Human-Machine-Interaction"><a href="#What-can-Interactive-Storytelling-teach-us-about-Human-Machine-Interaction" class="headerlink" title="What can Interactive Storytelling teach us about Human-Machine Interaction?"></a><strong>What can Interactive Storytelling teach us about Human-Machine Interaction?</strong></h3><p>People enjoy suspending disbelief when it comes to technology. When you start conversing with an object , even when you know that it’s a machine, there is still the innate human drive to create backstory and connection with that entity.</p><blockquote><h1 id="Even-when-you-know-that-it’s-a-machine-there-is-still-the-innate-human-drive-to-create-backstory-and-connection-with-that-entity"><a href="#Even-when-you-know-that-it’s-a-machine-there-is-still-the-innate-human-drive-to-create-backstory-and-connection-with-that-entity" class="headerlink" title="Even when you know that it’s a machine, there is still the innate human drive to create backstory and connection with that entity."></a>Even when you know that it’s a machine, there is still the innate human drive to create backstory and connection with that entity.</h1></blockquote><p>We have seen this through our work on products for both children and adults, and it has inspired us to continue to develop technologies that empower users to engage in increasingly organic computer conversations.</p><p><img src="https://peterswimm.com/images/medium/1_k7TMHzyd7phKqaWvarwQvQ.jpeg" alt="Humani: Jesse’s Story is a conversation-based narrative game for play on Facebook Messenger."><em>Humani: Jesse’s Story is a conversation-based narrative game for play on Facebook Messenger.</em></p><h3 id="As-messaging-platforms-add-the-ability-to-create-chat-driven-applications-what-sort-of-new-narrative-possibilities-do-you-see-for-creative-storytellers"><a href="#As-messaging-platforms-add-the-ability-to-create-chat-driven-applications-what-sort-of-new-narrative-possibilities-do-you-see-for-creative-storytellers" class="headerlink" title="As messaging platforms add the ability to create chat driven applications, what sort of new narrative possibilities do you see for creative storytellers?"></a><strong>As messaging platforms add the ability to create chat driven applications, what sort of new narrative possibilities do you see for creative storytellers?</strong></h3><p>All kinds! The possibilities are truly endless — which is what is so exciting about working at PullString. Never before have we had such an advanced ability to create everything from<a href="https://toytalk.com/"> “Choose Your Own Adventure” RPG experiences to Virtual Assistants to advanced customer service tools.</a></p><p>As more people and brands become storytellers and more storytellers embrace platforms like PullString, we’re excited to see what these creative minds come up with.</p><p><img src="https://peterswimm.com/images/medium/1_4kyi9W9Cg1uLsozN2Ns5IQ.png" alt=""></p><h3 id="Children-seem-to-grasp-the-immediacy-of-Human-Machine-connection-without-many-of-the-built-in-biases-of-adults-What-do-you-think-we-can-learn-from-them-as-to-how-people-will-interact-with-Bots-in-the-future"><a href="#Children-seem-to-grasp-the-immediacy-of-Human-Machine-connection-without-many-of-the-built-in-biases-of-adults-What-do-you-think-we-can-learn-from-them-as-to-how-people-will-interact-with-Bots-in-the-future" class="headerlink" title="Children seem to grasp the immediacy of Human-Machine connection without many of the built in biases of adults. What do you think we can learn from them as to how people will interact with Bots in the future?"></a><strong>Children seem to grasp the immediacy of Human-Machine connection without many of the built in biases of adults. What do you think we can learn from them as to how people will interact with Bots in the future?</strong></h3><p>Children want to believe in magic. There is no barrier to believing that Barbie can talk to them or that they could have a meaningful conversation with Iron Man. They immediately embrace that relationship. Adults can actually do this, too, but only when we create a rich and immersive narrative environment, heavy with story and high-stakes.</p><blockquote><h1 id="Children-want-to-believe-in-magic"><a href="#Children-want-to-believe-in-magic" class="headerlink" title="Children want to believe in magic."></a>Children want to believe in magic.</h1></blockquote><p>This allows adults to step into that role-playing state of mind that kids wear all the time so naturally. In the not distant future, we’ll be looking beyond basic chat bots, and delve more into VR and other immersive technologies to create those experiences for adults.</p><p><em>Join us Sept 28–29th in Austin, Texas to discuss bots, conversational software and community for the first ever <a href="https://talkabot.ai/">Talkabot Conference</a>. Full track tickets are still available but going fast!</em></p><p><em>Follow <a href="http://twitter.com/talkabotconf">@TalkabotConf</a> for the latest announcements and news.</em></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;&lt;em&gt;This post originally appeared on the &lt;a href=&quot;https://medium.com/talkabot/talkabot-talks-2016-round-up-cdfeb0a0739&quot;&gt;the Howdy.ai comp</summary>
+      
+    
+    
+    
+    <category term="Writing" scheme="http://peterswimm.com/categories/Writing/"/>
+    
+    <category term="Community" scheme="http://peterswimm.com/categories/Writing/Community/"/>
+    
+    <category term="Talkabot" scheme="http://peterswimm.com/categories/Writing/Community/Talkabot/"/>
+    
+    
+    <category term="Marketing" scheme="http://peterswimm.com/tags/Marketing/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Talkabot Talks: Rachel Law, Co-founder &amp; CEO of Kip</title>
+    <link href="http://peterswimm.com/2016/09/01/talkabot-talks-law/"/>
+    <id>http://peterswimm.com/2016/09/01/talkabot-talks-law/</id>
+    <published>2016-09-01T11:57:15.000Z</published>
+    <updated>2020-04-07T16:48:17.700Z</updated>
+    
+    <content type="html"><![CDATA[<p><em>This post originally appeared on the <a href="https://medium.com/talkabot/talkabot-talks-2016-round-up-cdfeb0a0739">the Howdy.ai company blog</a> to promote the <a href="https://talkabot.ai/">Talkabot Conference</a></em></p><p><a href="https://www.linkedin.com/in/rachellaw">*Rachel</a> and the team over <a href="http://kipthis.com/">at Kip</a> are tackling the <a href="https://medium.com/@kipsearch/kip-for-slack-edc84908f298#.llrb7j92t">problem of coordinating office purchases on Slack,</a> and now for the home over on <a href="https://medium.com/@kipsearch/how-kip-for-messenger-makes-shopping-easy-a28d643af25#.hut4vxulj">Facebook Messenger</a>. As a featured speaker at <a href="https://talkabot.ai/">Talkabot</a> this month, we asked her a little about how Kip can help both the office and the home, and ways we can use bots to streamline repetitive but essential tasks.*</p><h3 id="How-does-Kip-streamline-a-complicated-workplace-tasks-like-ordering-supplies"><a href="#How-does-Kip-streamline-a-complicated-workplace-tasks-like-ordering-supplies" class="headerlink" title="How does Kip streamline a complicated workplace tasks like ordering supplies?"></a><em>How does Kip streamline a complicated workplace tasks like ordering supplies?</em></h3><p>Instead of having the office manager go around and collect each team member’s order individually aka. “waitressing”, Kip can simultaneously ping each team member, ask for what they need, add the item to an office cart and send the item checklist and single checkout link to the office manager for approval.</p><blockquote><h1 id="What’s-happening-now-is-that-we’ve-moved-from-outsourcing-entertainment-to-outsourcing-productive-tasks-that-can-be-easily-piecemealed-out-to-bots"><a href="#What’s-happening-now-is-that-we’ve-moved-from-outsourcing-entertainment-to-outsourcing-productive-tasks-that-can-be-easily-piecemealed-out-to-bots" class="headerlink" title="What’s happening now is that we’ve moved from outsourcing entertainment (..) to outsourcing productive tasks that can be easily piecemealed out to bots."></a>What’s happening now is that we’ve moved from outsourcing entertainment (..) to outsourcing productive tasks that can be easily piecemealed out to bots.</h1></blockquote><h3 id="What-potential-do-you-see-for-Bots-to-help-teams-automate-essential-tasks"><a href="#What-potential-do-you-see-for-Bots-to-help-teams-automate-essential-tasks" class="headerlink" title="What potential do you see for Bots to help teams automate essential tasks?"></a><em>What potential do you see for Bots to help teams automate essential tasks?</em></h3><p>If you consider the history of bots, we’ve always had “computer player/P2” in most video games — — — which is what people are most familiar with in terms of AI + bots. I think what’s happening now is that we’ve moved from outsourcing entertainment (playing poker vs a bot) to outsourcing productive tasks that can be easily piecemealed out to bots.</p><p>The best potentials will be where a clearly defined task is laid out, and it is too expensive (in terms of time or money) sporadic for a human to carry out.</p><p><img src="https://peterswimm.com/images/medium/1_w29cWshGOt6Z-YgiTYlkNA.png" alt=""></p><h3 id="What-has-been-the-reaction-from-your-non-traditional-approaches-to"><a href="#What-has-been-the-reaction-from-your-non-traditional-approaches-to" class="headerlink" title="*What has been the reaction from your non-traditional approaches to"></a>*What has been the reaction from your non-traditional approaches to</h3><p>search like using photos and emojis?*</p><p>Most of our users, especially younger demographic really love it! It provides a surprising and fun way to shop, especially since you can combine and modify emojis to create new results. The other thing to remember is that conversation has changed along with the English language.</p><p>A decade ago only a few would use “lol” in a sentence, now it’s so common that the Oxford dictionary has accepted this acronym as its own word. It seems non-traditional at first, but we feel that chat has to reflect the conversation style people have today.</p><blockquote><h1 id="The-thing-to-remember-is-that-conversation-has-changed-along-with-the-English-language"><a href="#The-thing-to-remember-is-that-conversation-has-changed-along-with-the-English-language" class="headerlink" title="The (..) thing to remember is that conversation has changed along with the English language."></a>The (..) thing to remember is that conversation has changed along with the English language.</h1></blockquote><h3 id="Kip-will-soon-be-on-Facebook-Messenger-how-do-you-think-Kip-can-help-friends-and-families"><a href="#Kip-will-soon-be-on-Facebook-Messenger-how-do-you-think-Kip-can-help-friends-and-families" class="headerlink" title="Kip will soon be on Facebook *Messenger, how do you think Kip can help friends and families?*"></a><em>Kip will soon be on Facebook *Messenger</em>, how do you think Kip can help friends and families?*</h3><p>I grew up in a single parent family, my mom was not only the sole breadwinner but also the main caretaker. Each day after work, she still had to come home and do more work: housework. She’ll organize the things we needed for school, and check for stuff we were running out of. Unlike an office, she couldn’t just hire another admin or receptionist to help out.</p><p><a href="http://www.pewresearch.org/fact-tank/2014/12/22/less-than-half-of-u-s-kids-today-live-in-a-traditional-family/">Over 54% of children in US today live in non traditional families</a> with single parents, step parents, extended parents and etc in all shapes and sizes. We hope that Kip on Facebook Messenger can help share the responsibilities caretakers have in their families, friends and communities.</p><p><em>Join us Sept 28–29th in Austin, Texas to discuss bots, conversational software and community for the first ever <a href="https://talkabot.ai/">Talkabot Conference</a>. Full track tickets are still available but going fast!</em></p><p><em>Follow <a href="http://twitter.com/talkabotconf">@TalkabotConf</a> for the latest announcements and news.</em></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;&lt;em&gt;This post originally appeared on the &lt;a href=&quot;https://medium.com/talkabot/talkabot-talks-2016-round-up-cdfeb0a0739&quot;&gt;the Howdy.ai comp</summary>
+      
+    
+    
+    
+    <category term="Writing" scheme="http://peterswimm.com/categories/Writing/"/>
+    
+    <category term="Community" scheme="http://peterswimm.com/categories/Writing/Community/"/>
+    
+    <category term="Talkabot" scheme="http://peterswimm.com/categories/Writing/Community/Talkabot/"/>
+    
+    
+    <category term="Marketing" scheme="http://peterswimm.com/tags/Marketing/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Talkabot Talks: Peter Levitan, co-founder of Activebuddy</title>
+    <link href="http://peterswimm.com/2016/09/01/talkabot-talks-levitan/"/>
+    <id>http://peterswimm.com/2016/09/01/talkabot-talks-levitan/</id>
+    <published>2016-09-01T11:57:15.000Z</published>
+    <updated>2020-04-06T17:16:58.403Z</updated>
+    
+    <content type="html"><![CDATA[<p><em>This post originally appeared on the <a href="https://medium.com/talkabot/talkabot-talks-2016-round-up-cdfeb0a0739">the Howdy.ai company blog</a> to promote the <a href="https://talkabot.ai/">Talkabot Conference</a></em></p><p><em>Peter has worn many hats in his life as a consultant, author, and angel, but his biggest contribution to the bot space may prove to be <a href="https://en.wikipedia.org/wiki/Colloquis">ActiveBuddy</a>, who’s <a href="https://en.wikipedia.org/wiki/SmarterChild">SmarterChild</a> was one of the first major bots for instant messaging and SMS platforms in the early 2000’s. Along with <a href="https://blog.howdy.ai/talkabot-talks-robert-hoffer-co-founder-of-activebuddy-22c84c74b738#.a610b437a">Robert Hoffer</a> he will speak with <a href="https://medium.com/@benbrown">Howdy’s Ben Brown</a> at <a href="https://talkabot.ai/">Talkabot Conference</a> about how the future of bots are rooted in the history of early bot pioneers.</em></p><h3 id="In-your-pitch-video-your-team-was-very-bullish-on-the-potential-of"><a href="#In-your-pitch-video-your-team-was-very-bullish-on-the-potential-of" class="headerlink" title="*In your pitch video, your team was very bullish on the potential of"></a>*In your pitch video, your team was very bullish on the potential of</h3><p>chatbots as a concept. What made you so sure about it’s potential back<br>then?*</p><p>There were a could of major cool factors that excited us. First, was the essential concept of people being able to have a conversation with a computer. Out bots offered both information and fun — the personality aspect was critical. Second, you have to remember the fact that we were still living in a dial-up world.</p><blockquote><h1 id="The-speed-of-response-that-we-offered-via-IM-was-astounding"><a href="#The-speed-of-response-that-we-offered-via-IM-was-astounding" class="headerlink" title="The speed of response that we offered via IM was astounding."></a>The speed of response that we offered via IM was astounding.</h1></blockquote><p>The ask for info and answer took 1 to 2 seconds — max. It blew people’s minds. The speed of the interaction got us our first $4 million VC investment.</p><h3 id="How-important-was-natural-language-input-to-Smarterchild’s-popularity"><a href="#How-important-was-natural-language-input-to-Smarterchild’s-popularity" class="headerlink" title="How important was natural language input to Smarterchild’s popularity?"></a>How important was natural language input to Smarterchild’s popularity?</h3><p>Natural language was important mostly as it related to the user experience. <a href="https://blog.howdy.ai/talkabot-talks-robert-hoffer-co-founder-of-activebuddy-22c84c74b738#.a610b437a">As Robert says</a>, it was all about the conversation.</p><h3 id="Do-you-think-today’s-bot-users-have-higher-expectations-with-regards"><a href="#Do-you-think-today’s-bot-users-have-higher-expectations-with-regards" class="headerlink" title="Do you think today’s bot users have higher expectations with regards"></a>Do you think today’s bot users have higher expectations with regards</h3><p>to bot intelligence compared to SmarterChild’s users?</p><p>I am not sure what expectations are.</p><blockquote><h1 id="That-said-people-have-to-—-MUST-—-feel-that-the-conversation-is-as-simple-and-logical-as-if-they-were-speaking-to-another-human"><a href="#That-said-people-have-to-—-MUST-—-feel-that-the-conversation-is-as-simple-and-logical-as-if-they-were-speaking-to-another-human" class="headerlink" title="That said, people have to — MUST — feel that the conversation is as simple and logical as if they were speaking to another human."></a>That said, people have to — MUST — feel that the conversation is as simple and logical as if they were speaking to another human.</h1></blockquote><p>Sure, they’ll cut a bot some slack (no pun intended) but they have to feel like the conversation and result are super easy and error free. Over the years we’ve seen the complaints about using Siri. People will give a bot a chance, but not for too long if the bot does not seem like a solution. Hmmm, is anyone doing consumer research about bots?</p><h3 id="Compared-to-the-1990’s-the-market-for-bot-products-is-arguably-wider"><a href="#Compared-to-the-1990’s-the-market-for-bot-products-is-arguably-wider" class="headerlink" title="*Compared to the 1990’s, the market for bot products is arguably wider"></a>*Compared to the 1990’s, the market for bot products is arguably wider</h3><p>today. What do you think a SmarterChild would look like in 2016?*</p><p>One of our dreams, and yes this can be a bit creepy if done incorrectly, was that SmarterChild would become your BFF. It amassed a data set based on your interactions, remembered your queries, could anticipate your needs and became your ultimate digital personal diary (your DPD.)</p><p>Unfortunately, it kinda became a lame customer service bot given Microsoft’s limited horizons. They purchased the technology but not the vision or the soul.</p><p>And, its all about vision and soul.</p><p><em>Join us Sept 28–29th in Austin, Texas to discuss bots, conversational software and community for the first ever <a href="https://talkabot.ai/">Talkabot Conference</a>. Full track tickets are still available but going fast!</em></p><p><em>Follow <a href="http://twitter.com/talkabotconf">@TalkabotConf</a> for the latest announcements and news.</em></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;&lt;em&gt;This post originally appeared on the &lt;a href=&quot;https://medium.com/talkabot/talkabot-talks-2016-round-up-cdfeb0a0739&quot;&gt;the Howdy.ai comp</summary>
+      
+    
+    
+    
+    <category term="Writing" scheme="http://peterswimm.com/categories/Writing/"/>
+    
+    <category term="Community" scheme="http://peterswimm.com/categories/Writing/Community/"/>
+    
+    <category term="Talkabot" scheme="http://peterswimm.com/categories/Writing/Community/Talkabot/"/>
+    
+    
+    <category term="Marketing" scheme="http://peterswimm.com/tags/Marketing/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Talkabot Talks: Andy Mauro, Co-Founder and CEO at Automat.ai</title>
+    <link href="http://peterswimm.com/2016/09/01/talkabot-talks-mauro/"/>
+    <id>http://peterswimm.com/2016/09/01/talkabot-talks-mauro/</id>
+    <published>2016-09-01T11:57:15.000Z</published>
+    <updated>2020-04-07T16:50:00.145Z</updated>
+    
+    <content type="html"><![CDATA[<p><em>This post originally appeared on the <a href="https://medium.com/talkabot/talkabot-talks-2016-round-up-cdfeb0a0739">the Howdy.ai company blog</a> to promote the <a href="https://talkabot.ai/">Talkabot Conference</a></em></p><p><a href="https://www.linkedin.com/in/andymauro">*Andy</a> has spent the last 16 years working on conversational interfaces spanning phone based speech recognition, mobile voice assistants and now messaging and bots. With <a href="http://www.automat.ai/">Automat.ai</a>, he is building tools to “make it easier for anyone to build a messaging experience that uses artificial intelligence and human expertise to enable business conversations at scale”*</p><h3 id="How-important-will-conversational-UI-be-to-the-next-wave-of-web-applications"><a href="#How-important-will-conversational-UI-be-to-the-next-wave-of-web-applications" class="headerlink" title="How important will conversational UI be to the next wave of web applications?"></a>How important will conversational UI be to the next wave of web applications?</h3><p>While bots have much in common with web applications in that they live in the cloud and are quick and easy to update without requiring publishing and distribution approvals like mobile apps, they are something new and different.</p><p>Benedict Evans has asked whether chat bots will become a “third runtime”, and we are seeing early signs that brands both big and small think the answer is yes. But the real meat of your question is related to conversational UI, namely is conversational UI more about the conversation or more about the UI?</p><p>Opinions here are very divided but I come down squarely in the middle which is that you need both graphical interface affordances and also conversational language understanding to fulfill user’s expectations. I’ll go into depth on this topic at Talkabot but for now let me simply leave you with a question:</p><blockquote><h1 id="What-would-the-web-be-like-if-we-could-only-click-links-and-browse-and-we-didn’t-have-powerful-natural-language-search-It’d-be-Lycos-Remember-Lycos-You-don’t-wanna-remember-Lycos"><a href="#What-would-the-web-be-like-if-we-could-only-click-links-and-browse-and-we-didn’t-have-powerful-natural-language-search-It’d-be-Lycos-Remember-Lycos-You-don’t-wanna-remember-Lycos" class="headerlink" title="What would the web be like if we could only click links and browse and we didn’t have powerful natural language search? It’d be Lycos. Remember Lycos? You don’t wanna remember Lycos."></a>What would the web be like if we could only click links and browse and we didn’t have powerful natural language search? It’d be Lycos. Remember Lycos? You don’t wanna remember Lycos.</h1></blockquote><p>But you also wouldn’t want to live in an “I’m Feeling Lucky” search only world either. We need tools that let us build experiences that seamlessly blend modern mobile messaging GUI elements with the ability to understand an entire conversation not just a single input.</p><p>Unfortunately most of the tools out there today don’t let non-PhDs build great bots but that will improve soon.</p><h3 id="What-ways-can-machine-learning-help-Companies-learn-more-about-the-people-who-use-their-products"><a href="#What-ways-can-machine-learning-help-Companies-learn-more-about-the-people-who-use-their-products" class="headerlink" title="What ways can machine learning help Companies learn more about the people who use their products?"></a>What ways can machine learning help Companies learn more about the people who use their products?</h3><p>One of the other reasons I believe that free-form text input is a great compliment to GUI is that when you give your customers the freedom to talk to you in their own words they give you a ton of insight about where things are going well and where you need to improve.</p><blockquote><h1 id="In-the-GUI-only-world-we’ve-lived-in-for-most-of-modern-computation-the-only-way-to-learn-if-your-product-didn’t-work-or-was-missing-features-was-to-watch-users-and-use-coarse-conversion-based-analytic-systems"><a href="#In-the-GUI-only-world-we’ve-lived-in-for-most-of-modern-computation-the-only-way-to-learn-if-your-product-didn’t-work-or-was-missing-features-was-to-watch-users-and-use-coarse-conversion-based-analytic-systems" class="headerlink" title="In the GUI only world we’ve lived in for most of modern computation the only way to learn if your product didn’t work or was missing features was to watch users and use coarse conversion based analytic systems."></a>In the GUI only world we’ve lived in for most of modern computation the only way to learn if your product didn’t work or was missing features was to watch users and use coarse conversion based analytic systems.</h1></blockquote><p>In a world of conversation not only can you learn about where your product isn’t working you can also learn about new areas you need to add to your product. In other words, you’ll be able to improve both the depth and breadth of your products.</p><p>Conversational interfaces are going to let companies both big and small make their customers happier, and make more money. The trick here though is to have this learning happen by the machine.</p><blockquote><h1 id="Many-bot-companies-will-tell-you-they-can-learn-but-what-they-really-mean-is-that-they-can-look-at-logs-and-manually-program-in-new-features"><a href="#Many-bot-companies-will-tell-you-they-can-learn-but-what-they-really-mean-is-that-they-can-look-at-logs-and-manually-program-in-new-features" class="headerlink" title="Many bot companies will tell you they can learn but what they really mean is that they can look at logs and manually program in new features."></a>Many bot companies will tell you they can learn but what they really mean is that they can look at logs and manually program in new features.</h1></blockquote><p>Companies looking to adopt technology in this space should be looking for solutions that have some level of automated learning.</p><p><img src="!%5B%5D(https://peterswimm.com/images/medium/1_GMrePnvrqkVOPT6hDwvXkg.jpeg" alt="Andy speaking at [Startup Fest 2016](https://www.youtube.com/watch?v=ldVUO7oS_Uk)"><em>Andy speaking at <a href="https://www.youtube.com/watch?v=ldVUO7oS_Uk">Startup Fest 2016</a></em></p><h3 id="What-are-the-challenges-of-communicating-entirely-via-text-with-users-from-various-backgrounds"><a href="#What-are-the-challenges-of-communicating-entirely-via-text-with-users-from-various-backgrounds" class="headerlink" title="What are the challenges of communicating entirely via text with users from various backgrounds?"></a>What are the challenges of communicating entirely via text with users from various backgrounds?</h3><p>Trying to deal with different accents and dialects can be a real challenge in an audio environment. While I am bullish long term on voice interfaces, after many years focusing in this area we found that mobile users really don’t want to talk to their devices.</p><p>Accounting for all of mobile utilization voice input accounts for less than 1% of overall usage.</p><blockquote><h1 id="Users-don’t-mind-doing-the-odd-voice-search-or-setting-an-alarm-but-that-is-a-far-cry-from-having-a-conversation"><a href="#Users-don’t-mind-doing-the-odd-voice-search-or-setting-an-alarm-but-that-is-a-far-cry-from-having-a-conversation" class="headerlink" title="Users don’t mind doing the odd voice search or setting an alarm, but that is a far cry from having a conversation."></a>Users don’t mind doing the odd voice search or setting an alarm, but that is a far cry from having a conversation.</h1></blockquote><p>Voice is successful in the home and in the car where people don’t mind talking, but generally speaking people use their thumbs to interact with their mobile devices.</p><p>That said, just because we’re dealing with text doesn’t remove the interesting challenges. Modern mobile messaging is about far more than just text, it includes emoji, stickers, animated gifs, video, images and increasingly rich GUI elements.</p><blockquote><h1 id="Working-all-of-these-features-into-a-conversation-requires-a-whole-new-set-of-technology-and-design-innovations"><a href="#Working-all-of-these-features-into-a-conversation-requires-a-whole-new-set-of-technology-and-design-innovations" class="headerlink" title="Working all of these features into a conversation requires a whole new set of technology and design innovations."></a>Working all of these features into a conversation requires a whole new set of technology and design innovations.</h1></blockquote><p>We see a lot of folks making the mistake in thinking that messaging is an extension of web chat, or in-app chat. Messaging is an evolution of text interfaces but is really coming into its own as something new. And of course Messaging is inclusive of voice and video calling so we’ll eventually have to deal with that side of things as well.</p><h3 id="What-opportunities-are-there-for-brands-to-engage-potential-customers-via-communicating-via-natural-language"><a href="#What-opportunities-are-there-for-brands-to-engage-potential-customers-via-communicating-via-natural-language" class="headerlink" title="What opportunities are there for brands to engage potential customers via communicating via natural language?"></a>What opportunities are there for brands to engage potential customers via communicating via natural language?</h3><p>I prefer to use the term Conversational Language Understanding (CLU) rather than natural language understanding (NLU) because I think the opportunity really stems from understanding the entire conversation, and maybe even spanning across conversations.</p><blockquote><h1 id="Previous-generations-of-NLU-technology-have-disappointed-because-they’ve-mostly-only-been-able-to-do-transactions"><a href="#Previous-generations-of-NLU-technology-have-disappointed-because-they’ve-mostly-only-been-able-to-do-transactions" class="headerlink" title="Previous generations of NLU technology have disappointed because they’ve mostly only been able to do transactions."></a>Previous generations of NLU technology have disappointed because they’ve mostly only been able to do transactions.</h1></blockquote><p>Years ago my team and I built a system that could understand very long sentences and very accurately pluck out the various words from a sentence to do things like pay bills or order pizza.</p><p>Turns out human beings aren’t put on the planet to complete transactions. They have questions, they want to joke around, make a connection and feel like they’re being heard. It’s traditionally been hard and expensive to manually update a conversational system and so most prior generations, be it phone IVR or mobile assistants have been brittle and not typically associated with “engaging” customers.</p><blockquote><h1 id="I-believe-messaging-and-bots-will-finally-allow-us-to-invent-the-right-technology-and-design-patterns-that-will-drive-end-user-engagement"><a href="#I-believe-messaging-and-bots-will-finally-allow-us-to-invent-the-right-technology-and-design-patterns-that-will-drive-end-user-engagement" class="headerlink" title="I believe messaging and bots will finally allow us to invent the right technology and design patterns that will drive end user engagement."></a>I believe messaging and bots will finally allow us to invent the right technology and design patterns that will drive end user engagement.</h1></blockquote><p>I believe we’ll see bots that become iconic for brands and that span entertainment, marketing, sales and not just in the obvious customer service use case. I also think we’ll see scenarios where bots and human experts will reinforce one another and create new types of jobs and end user experiences that far surpass the one size fits all web pages and mobile apps we’ve all gotten used to.</p><p><em>Join us Sept 28–29th in Austin, Texas to discuss bots, conversational software and community for the first ever <a href="https://talkabot.ai/">Talkabot Conference</a>. Full track tickets are still available but going fast!</em></p><p><em>Follow <a href="http://twitter.com/talkabotconf">@TalkabotConf</a> for the latest announcements and news.</em></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;&lt;em&gt;This post originally appeared on the &lt;a href=&quot;https://medium.com/talkabot/talkabot-talks-2016-round-up-cdfeb0a0739&quot;&gt;the Howdy.ai comp</summary>
+      
+    
+    
+    
+    <category term="Writing" scheme="http://peterswimm.com/categories/Writing/"/>
+    
+    <category term="Community" scheme="http://peterswimm.com/categories/Writing/Community/"/>
+    
+    <category term="Talkabot" scheme="http://peterswimm.com/categories/Writing/Community/Talkabot/"/>
+    
+    
+    <category term="Marketing" scheme="http://peterswimm.com/tags/Marketing/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Talkabot Talks: Barbara Ondrisek, author of Mica, the Hipster Cat Bot</title>
+    <link href="http://peterswimm.com/2016/09/01/talkabot-talks-ondrisek/"/>
+    <id>http://peterswimm.com/2016/09/01/talkabot-talks-ondrisek/</id>
+    <published>2016-09-01T11:57:15.000Z</published>
+    <updated>2020-04-07T16:48:23.528Z</updated>
+    
+    <content type="html"><![CDATA[<p><em>This post originally appeared on the <a href="https://medium.com/talkabot/talkabot-talks-2016-round-up-cdfeb0a0739">the Howdy.ai company blog</a> to promote the <a href="https://talkabot.ai/">Talkabot Conference</a></em></p><p><a href="https://electrobabe.at/">*Barbara is a software developer</a> whose bot, <a href="https://hipstercatbot.com">Mica, the Hipster Cat Bot</a>, is a friendly venue recommendation bot for various messaging platforms like Facebook Messenger, Telegram, Skype and more. As one of the featured speakers at <a href="https://talkabot.ai/">next month’s Talkabot Conference</a>, she spoke to us about the challenges a developer faces when trying to make a bot that is both friendly and useful.*</p><h3 id="What-kind-of-feedback-have-you-gotten-from-users-of-Mica"><a href="#What-kind-of-feedback-have-you-gotten-from-users-of-Mica" class="headerlink" title="What kind of feedback have you gotten from users of Mica?"></a><em>What kind of feedback have you gotten from users of Mica?</em></h3><p>I basically received very positive feedback about <a href="https://hipstercatbot.com">Mica, the Hipster Cat Bot</a><a href="https://hipstercatbot.com.">.</a> People love the combination of a cat and trendy venues and like the results of Mica!</p><p>With Mica I learned a lot about user experience-design. Most people just try out which combinations or commands a chatbot understands and where its capabilities and limitations lie. For instance, there is still no common standard established for chatbots, although most understand “hi”, “start” and “help”.</p><blockquote><h1 id="There-is-still-no-common-standard-established-for-chatbots-although-most-understand-“hi”-“start”-and-“help”"><a href="#There-is-still-no-common-standard-established-for-chatbots-although-most-understand-“hi”-“start”-and-“help”" class="headerlink" title="There is still no common standard established for chatbots, although most understand “hi”, “start” and “help”."></a>There is still no common standard established for chatbots, although most understand “hi”, “start” and “help”.</h1></blockquote><p>People also get upset easily when a bot does not meet their expectation. In order not to frustrate my users, Mica sends a funny cat picture to entertain if she doesn’t find venues in the vicinity or does not understand the request. Mica is polite and responds accordingly with basic conversation skills.</p><h3 id="How-do-you-decide-what-sort-of-tone-and-approach-to-use-when-dealing-with-users-as-a-chatbot"><a href="#How-do-you-decide-what-sort-of-tone-and-approach-to-use-when-dealing-with-users-as-a-chatbot" class="headerlink" title="How do you decide what sort of tone and approach to use when dealing with users as a chatbot?"></a><em>How do you decide what sort of tone and approach to use when dealing with users as a chatbot?</em></h3><p><img src="https://peterswimm.com/images/medium/1_Z8bKpSs1ABVPqy_n1UeEnw.png" alt=""></p><p>Mica is based on my cat, my real cat, at home. Mica is friendly, always hungry, sometimes a bit intrusive. She also likes hip and trendy coffee shops, she likes to share funny cat pictures and doesn’t like water. Although the hipster mustache implies a male character, Mica is a female cat.</p><p>To begin with, Mica was chosen (as a joke) as the official “Head of Communication” to be addressed for PR requests with another project of mine: <a href="https://likeahipster.com">LIKE A HIPSTER.</a></p><p>I also decided to use a cat as the character to chat with because I think every single cat owner would love to actually talk to their cat! Also, people tend to be disturbed when they cannot distinguish whether they are chatting with a person or a computer program. Thus, I chose Mica as the perfect dialog partner.</p><blockquote><h1 id="People-tend-to-be-disturbed-when-they-cannot-distinguish-whether-they-are-chatting-with-a-person-or-a-computer-program"><a href="#People-tend-to-be-disturbed-when-they-cannot-distinguish-whether-they-are-chatting-with-a-person-or-a-computer-program" class="headerlink" title="People tend to be disturbed when they cannot distinguish whether they are chatting with a person or a computer program."></a>People tend to be disturbed when they cannot distinguish whether they are chatting with a person or a computer program.</h1></blockquote><h3 id="Have-you-learned-anything-unexpected-from-your-interactions-with-users-since-you’ve-started"><a href="#Have-you-learned-anything-unexpected-from-your-interactions-with-users-since-you’ve-started" class="headerlink" title="Have you learned anything unexpected from your interactions with users since you’ve started?"></a><em>Have you learned anything unexpected from your interactions with users since you’ve started?</em></h3><p>Some people start to swear just for fun or send disturbing questions such as “where is Barbara?” ;)</p><p>Since Mica also has quite a narrow aim (to find hip venues worldwide), people are usually quickly satisfied when trying a chat.</p><p><em>Join us Sept 28–29th in Austin, Texas to discuss bots, conversational software and community for the first ever <a href="https://talkabot.ai/">Talkabot Conference</a>. Full track tickets are still available but going fast!</em></p><p><em>Follow <a href="http://twitter.com/talkabotconf">@TalkabotConf</a> for the latest announcements and news.</em></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;&lt;em&gt;This post originally appeared on the &lt;a href=&quot;https://medium.com/talkabot/talkabot-talks-2016-round-up-cdfeb0a0739&quot;&gt;the Howdy.ai comp</summary>
+      
+    
+    
+    
+    <category term="Writing" scheme="http://peterswimm.com/categories/Writing/"/>
+    
+    <category term="Community" scheme="http://peterswimm.com/categories/Writing/Community/"/>
+    
+    <category term="Talkabot" scheme="http://peterswimm.com/categories/Writing/Community/Talkabot/"/>
+    
+    
+    <category term="Marketing" scheme="http://peterswimm.com/tags/Marketing/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Talkabot Talks: Eric Soelzer, Talkabot Organizer</title>
+    <link href="http://peterswimm.com/2016/09/01/talkabot-talks-soelzer/"/>
+    <id>http://peterswimm.com/2016/09/01/talkabot-talks-soelzer/</id>
+    <published>2016-09-01T11:57:15.000Z</published>
+    <updated>2020-04-06T17:17:29.342Z</updated>
+    
+    <content type="html"><![CDATA[<p><em>This post originally appeared on the <a href="https://medium.com/talkabot/talkabot-talks-2016-round-up-cdfeb0a0739">the Howdy.ai company blog</a> to promote the <a href="https://talkabot.ai/">Talkabot Conference</a></em></p><p><em>Eric has been juggling time between <a href="http://howdy.ai">Howdy</a> and the <a href="http://talkabot.ai">Talkabot Conference </a>for some months now, and I thought it would be interesting to get his perspective on why everyone at Howdy is excited about our first conference.</em></p><h3 id="How-did-Howdy-decide-that-Talkabot-needed-to-happen"><a href="#How-did-Howdy-decide-that-Talkabot-needed-to-happen" class="headerlink" title="How did Howdy decide that Talkabot needed to happen?"></a><strong>How did Howdy decide that Talkabot needed to happen?</strong></h3><p><a href="http://howdy.ai">Howdy became a full-fledged startup in September 2015</a>, and it was around that time we had the idea (to put on Talkabot). We got in touch with <a href="http://peterlevitan.com/activebuddy-smarterchild-advertising-7485/">Peter Levitan</a> and <a href="https://twitter.com/roberthoffer">Robert Hoffer</a>, the creators of <a href="https://en.wikipedia.org/wiki/SmarterChild">SmarterChild</a>, and pitched the idea that they get on stage and talk about their experience. When they agreed, we realized we had something really relevant and exciting to build a conference around. I’m really proud of the people we’ve brought together for this event.</p><h3 id="What-priorities-did-you-have-when-deciding-who-you-wanted-to-see-speak-at-Talkabot"><a href="#What-priorities-did-you-have-when-deciding-who-you-wanted-to-see-speak-at-Talkabot" class="headerlink" title="What priorities did you have when deciding who you wanted to see speak at Talkabot?"></a><strong>What priorities did you have when deciding who you wanted to see speak at Talkabot?</strong></h3><p>When “peak bot hype” happened in April 2016, the mission became clearer:</p><blockquote><h1 id="W-e-had-to-help-cut-the-hype-around-this-stuff-work-on-building-a-community-and-hear-from-the-people-we-knew-had-experience-working-on-bots-and-related-software"><a href="#W-e-had-to-help-cut-the-hype-around-this-stuff-work-on-building-a-community-and-hear-from-the-people-we-knew-had-experience-working-on-bots-and-related-software" class="headerlink" title="(W)e had to help cut the hype around this stuff, work on building a community and hear from the people we knew had experience working on bots and related software."></a>(W)e had to help cut the hype around this stuff, work on building a community and hear from the people we knew had experience working on bots and related software.</h1></blockquote><p>There were communities established for creative art bots, but nothing for the opportunities for bots in platforms like Slack that are primarily used for work and business.</p><p>When <a href="https://developers.facebook.com/docs/messenger-platform">Facebook announced bots for Messenger</a> at F8, all sorts of hot takes about bots were flying around with wild speculation. It was obvious that the good information was being buried amongst articles stuffed with questions from people without experience.</p><blockquote><h1 id="We-had-a-good-perspective-on-who-was-doing-smart-work-in-the-space-and-reached-out-to-them"><a href="#We-had-a-good-perspective-on-who-was-doing-smart-work-in-the-space-and-reached-out-to-them" class="headerlink" title="We had a good perspective on who was doing smart work in the space and reached out to them."></a>We had a good perspective on who was doing smart work in the space and reached out to them.</h1></blockquote><p>As a person working at a bot startup, I am thrilled to hear from the lineup of presenters we’ve assembled.</p><h3 id="As-the-maintainer-of-Botkit-how-important-are-open-source-tools-to-the-success-of-bots-as-a-platform"><a href="#As-the-maintainer-of-Botkit-how-important-are-open-source-tools-to-the-success-of-bots-as-a-platform" class="headerlink" title="As the maintainer of Botkit, how important are open-source tools to the success of bots as a platform?"></a><strong>As the maintainer of <a href="https://github.com/howdyai/botkit">Botkit</a>, how important are open-source tools to the success of bots as a platform?</strong></h3><p>It’s critical that people are able to experiment heavily with bots right now, and an open-source toolkit like Botkit with community-driven development is the best way for developers to make bots for Slack and Facebook without feeding their data into a (potentially-expensive) black box.</p><blockquote><h1 id="If-we-want-to-have-major-success-with-bots-it-will-take-lots-and-lots-of-developers-to-get-there"><a href="#If-we-want-to-have-major-success-with-bots-it-will-take-lots-and-lots-of-developers-to-get-there" class="headerlink" title="If we want to have major success with bots, it will take lots and lots of developers to get there."></a>If we want to have major success with bots, it will take lots and lots of developers to get there.</h1></blockquote><p>We’re trying to make bots as ubiquitous as websites, so we’re committed to supporting and growing the Botkit community to help make that happen.</p><h3 id="What-makes-Austin-a-great-town-for-bots"><a href="#What-makes-Austin-a-great-town-for-bots" class="headerlink" title="What makes Austin a great town for bots?"></a><strong>What makes Austin a great town for bots?</strong></h3><p>Austin is a fantastically collaborative place to work. In my experience, most everyone knows each other and shares their experience with one another. The quality of life here is high so the pool of technical talent is high. It certainly doesn’t hurt that the industries providing these massive opportunities are here, as well. Proof of that is in the work <a href="http://venturebeat.com/2016/07/12/whole-foods-just-launched-a-messenger-chatbot-for-finding-recipes-with-emojis/">Conversable is doing creating bots for companies like Whole Foods</a>.</p><p>It’s a boom time in Austin, so naturally it is a fertile place to invest in emerging technology. Bots have a bright future in Austin…and as someone who is never leaving, that makes me happy!</p><p><em>Join us Sept 28–29th in Austin, Texas to discuss bots, conversational software and community for the first ever <a href="https://talkabot.ai/">Talkabot Conference</a>. Full track tickets are still available but going fast!</em></p><p><em>Follow <a href="http://twitter.com/talkabotconf">@TalkabotConf</a> for the latest announcements and news.</em></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;&lt;em&gt;This post originally appeared on the &lt;a href=&quot;https://medium.com/talkabot/talkabot-talks-2016-round-up-cdfeb0a0739&quot;&gt;the Howdy.ai comp</summary>
+      
+    
+    
+    
+    <category term="Writing" scheme="http://peterswimm.com/categories/Writing/"/>
+    
+    <category term="Community" scheme="http://peterswimm.com/categories/Writing/Community/"/>
+    
+    <category term="Talkabot" scheme="http://peterswimm.com/categories/Writing/Community/Talkabot/"/>
+    
+    
+    <category term="Marketing" scheme="http://peterswimm.com/tags/Marketing/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Talkabot Talks: Sam Williams, Sr. Software Engineer at Quartz</title>
+    <link href="http://peterswimm.com/2016/09/01/talkabot-talks-williams/"/>
+    <id>http://peterswimm.com/2016/09/01/talkabot-talks-williams/</id>
+    <published>2016-09-01T11:57:15.000Z</published>
+    <updated>2020-04-07T16:52:07.778Z</updated>
+    
+    <content type="html"><![CDATA[<p><em>This post originally appeared on the <a href="https://medium.com/talkabot/talkabot-talks-2016-round-up-cdfeb0a0739">the Howdy.ai company blog</a> to promote the <a href="https://talkabot.ai/">Talkabot Conference</a></em></p><p><a href="http://qz.com/author/swilliamsqz/">*Sam</a> along with the <a href="http://qz.com/">team at Quartz</a> are building solutions to serve the new ways people consume news. Using a text messaging interface, users can easily tune breaking news and long form content to their tastes, and prior to their appears at <a href="http://talkabot.ai">Talkabot Conference,</a> spoke with us on the changing media landscape and how people can use Quartz to change the way they consume news.*</p><h3 id="What-are-the-differences-in-the-way-people-consume-news-using-the-Quartz-app"><a href="#What-are-the-differences-in-the-way-people-consume-news-using-the-Quartz-app" class="headerlink" title="What are the differences in the way people consume news using the Quartz app?"></a><strong>What are the differences in the way people consume news using the Quartz app?</strong></h3><p>Readers of the Quartz app get their news in a form similar to text messaging. The reader gets a message from us introducing a story, and we present them with the option to read more (usually in the form of an emoji) or skip to the next news items.</p><blockquote><h1 id="It’s-sort-of-like-a-choose-your-own-adventure-for-news"><a href="#It’s-sort-of-like-a-choose-your-own-adventure-for-news" class="headerlink" title="It’s sort of like a choose-your-own-adventure for news."></a>It’s sort of like a choose-your-own-adventure for news.</h1></blockquote><p>We also send out notifications that are intended to be more fun and useful than what you might expect from a news app.</p><p><img src="https://peterswimm.com/images/medium/1_XD8LnILsyRi7mYyH6XMqZg.jpeg" alt=""></p><h3 id="What-opportunities-does-the-Quartz-app-create-for-journalists"><a href="#What-opportunities-does-the-Quartz-app-create-for-journalists" class="headerlink" title="What opportunities does the Quartz app create for journalists?"></a><strong>What opportunities does the Quartz app create for journalists?</strong></h3><p>It’s an opportunity to try writing news in a completely different style. They need to write both sides of a conversation, and the tone is different than what you would usually find in a story on our website. It’s also a great opportunity to show off their excellent GIF curation skills.</p><blockquote><h1 id="J-ournalists-need-to-write-both-sides-of-a-conversation-and-the-tone-is-different-than-what-you-would-usually-find-in-a-story-on-our-website"><a href="#J-ournalists-need-to-write-both-sides-of-a-conversation-and-the-tone-is-different-than-what-you-would-usually-find-in-a-story-on-our-website" class="headerlink" title="(J)ournalists need to write both sides of a conversation, and the tone is different than what you would usually find in a story on our website."></a>(J)ournalists need to write both sides of a conversation, and the tone is different than what you would usually find in a story on our website.</h1></blockquote><h3 id="Why-is-a-chat-based-conversational-UI-for-consuming-information-such-a-natural-fit-for-consuming-news"><a href="#Why-is-a-chat-based-conversational-UI-for-consuming-information-such-a-natural-fit-for-consuming-news" class="headerlink" title="Why is a chat based conversational UI for consuming information such a natural fit for consuming news?"></a><strong>Why is a chat based conversational UI for consuming information such a natural fit for consuming news?</strong></h3><p>Well, for one, it’s just fun. I would say that a chat interface is a natural extension of notifications, which is how this project began. In fact, an early version of the app was just a blank screen, with the only content delivered through notifications.</p><blockquote><h1 id="Chat-interface-is-a-natural-extension-of-notifications"><a href="#Chat-interface-is-a-natural-extension-of-notifications" class="headerlink" title="Chat interface is a natural extension of notifications."></a>Chat interface is a natural extension of notifications.</h1></blockquote><p>From there we started playing around with different interfaces inside the app, and once we started playing around with a chat interface, it was clear that it would work well as a complement our notifications. Everything is just a short message, whether on your lock screen or inside the app.</p><p><img src="https://peterswimm.com/images/medium/1_m0QEbQ2JA8iZ2q7RcThoGA.jpeg" alt="Quartz has plenty of options, for news junkies, or casual browsing."><em>Quartz has plenty of options, for news junkies, or casual browsing.</em></p><h3 id="What-were-the-challenges-of-conveying-the-information-you-want-to-in-a-messaging-interface"><a href="#What-were-the-challenges-of-conveying-the-information-you-want-to-in-a-messaging-interface" class="headerlink" title="What were the challenges of conveying the information you want to in a messaging interface?"></a><strong>What were the challenges of conveying the information you want to in a messaging interface?</strong></h3><p>One of the most challenging aspects of building the app was figuring out how we would actually write the content for it. Because this type of writing is so different from a traditional news story, it was important that the interface for writing the content be as close as possible to a messaging interface.</p><p>There was no existing CMS for creating this sort of back-and-forth conversation that we wanted, and because there is a logic to how the conversation is supposed to flow (keeping track of what the user has read etc), we also had to come up with an new data model to use when delivering it to the app.</p><blockquote><h1 id="There-was-no-existing-CMS-for-creating-this-sort-of-back-and-forth-…-we-had-to-come-up-with-an-new-data-model-to-use-when-delivering-it-to-the-app"><a href="#There-was-no-existing-CMS-for-creating-this-sort-of-back-and-forth-…-we-had-to-come-up-with-an-new-data-model-to-use-when-delivering-it-to-the-app" class="headerlink" title="There was no existing CMS for creating this sort of back-and-forth … we had to come up with an new data model to use when delivering it to the app."></a>There was no existing CMS for creating this sort of back-and-forth … we had to come up with an new data model to use when delivering it to the app.</h1></blockquote><p>Figuring out the tone of voice we wanted for the app was also challenging, and we took advantage of an extended private beta with the whole Quartz staff working on it and getting feedback of what worked well and what didn’t.</p><p><em>Join us Sept 28–29th in Austin, Texas to discuss bots, conversational software and community for the first ever <a href="https://talkabot.ai/">Talkabot Conference</a>. Full track tickets are still available but going fast!</em></p><p><em>Follow <a href="http://twitter.com/talkabotconf">@TalkabotConf</a> for the latest announcements and news.</em></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;&lt;em&gt;This post originally appeared on the &lt;a href=&quot;https://medium.com/talkabot/talkabot-talks-2016-round-up-cdfeb0a0739&quot;&gt;the Howdy.ai comp</summary>
+      
+    
+    
+    
+    <category term="Writing" scheme="http://peterswimm.com/categories/Writing/"/>
+    
+    <category term="Community" scheme="http://peterswimm.com/categories/Writing/Community/"/>
+    
+    <category term="Talkabot" scheme="http://peterswimm.com/categories/Writing/Community/Talkabot/"/>
+    
+    
+    <category term="Marketing" scheme="http://peterswimm.com/tags/Marketing/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Anatek Pocket Sync Manual</title>
+    <link href="http://peterswimm.com/2016/01/06/anatek-pocket-sync-manual/"/>
+    <id>http://peterswimm.com/2016/01/06/anatek-pocket-sync-manual/</id>
+    <published>2016-01-06T17:30:27.000Z</published>
+    <updated>2020-04-06T14:18:48.745Z</updated>
+    
+    <content type="html"><![CDATA[<p>I have one of these units for some reason, so I went ahead and scanned the manual for it, which seems to be missing online. Enjoy!</p><p><a href="http://www.peterswimm.com/wp-content/uploads/2016/01/anatekpocketsync.png"><img src="http://www.peterswimm.com/wp-content/uploads/2016/01/anatekpocketsync-794x1024.png" alt="anatekpocketsync"></a></p><a id="more"></a>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;I have one of these units for some reason, so I went ahead and scanned the manual for it, which seems to be missing online. Enjoy!&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.peterswimm.com/wp-content/uploads/2016/01/anatekpocketsync.png&quot;&gt;&lt;img src=&quot;http://www.peterswimm.com/wp-content/uploads/2016/01/anatekpocketsync-794x1024.png&quot; alt=&quot;anatekpocketsync&quot;&gt;&lt;/a&gt;&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Writing" scheme="http://peterswimm.com/categories/Writing/"/>
+    
+    <category term="Documentation" scheme="http://peterswimm.com/categories/Writing/Documentation/"/>
+    
+    <category term="Tutorials" scheme="http://peterswimm.com/categories/Writing/Documentation/Tutorials/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Happy Wavetable X-Mas</title>
+    <link href="http://peterswimm.com/2015/12/24/happy-wavetable-x-mas/"/>
+    <id>http://peterswimm.com/2015/12/24/happy-wavetable-x-mas/</id>
+    <published>2015-12-24T14:14:28.000Z</published>
+    <updated>2020-03-05T14:43:29.026Z</updated>
+    
+    <content type="html"><![CDATA[<p><a href="http://www.peterswimm.com/wp-content/uploads/2015/12/img182.png"><img src="http://www.peterswimm.com/wp-content/uploads/2015/12/img182.png" alt="img182"></a> Found <a href="https://www.reddit.com/r/edmproduction/comments/2jhew1/1700_waveforms_for_serums_wavetable_download_link/">this thread on Reddit,</a> and fixed them for <a href="http://littlegptracker.com/">LittleGPtracker</a>. Happy Noel! <a href="http://www.toilville.com/mess/redditwavetables.zip">Download Them Here!</a></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;&lt;a href=&quot;http://www.peterswimm.com/wp-content/uploads/2015/12/img182.png&quot;&gt;&lt;img src=&quot;http://www.peterswimm.com/wp-content/uploads/2015/12/</summary>
+      
+    
+    
+    
+    <category term="Music" scheme="http://peterswimm.com/categories/Music/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Pulselooper Remix &#39;Vertabimode&#39; now available</title>
+    <link href="http://peterswimm.com/2015/10/12/pulselooper-remix/"/>
+    <id>http://peterswimm.com/2015/10/12/pulselooper-remix/</id>
+    <published>2015-10-12T18:39:04.000Z</published>
+    <updated>2020-03-06T18:59:22.376Z</updated>
+    
+    <content type="html"><![CDATA[<p><a href="http://www.peterswimm.com/wp-content/uploads/2015/10/a4202106727_16.jpg"><img src="http://www.peterswimm.com/wp-content/uploads/2015/10/a4202106727_16.jpg" alt="a4202106727_16"></a> Brazilian chiptune artist Pulselooper asked me to remix a track off his new album “<a href="https://pulselooper.bandcamp.com/album/cp069-lisergamida">Lisergamida</a>“. You can download it there, or stream it over on my <a href="https://soundcloud.com/peterswimm">Soundclown.</a></p><iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=1125344909/size=small/bgcol=ffffff/linkcol=0687f5/track=1179165594/transparent=true/" seamless><a href="http://pulselooper.bandcamp.com/album/cp069-lisergamida">[CP069] Lisergamida by Pulselooper</a></iframe>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;&lt;a href=&quot;http://www.peterswimm.com/wp-content/uploads/2015/10/a4202106727_16.jpg&quot;&gt;&lt;img src=&quot;http://www.peterswimm.com/wp-content/uploads/</summary>
+      
+    
+    
+    
+    <category term="Music" scheme="http://peterswimm.com/categories/Music/"/>
+    
+    <category term="Releases" scheme="http://peterswimm.com/categories/Music/Releases/"/>
+    
+    
+    <category term="Pulselooper" scheme="http://peterswimm.com/tags/Pulselooper/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>ICH.BIN won the TURNTNES Compo!</title>
+    <link href="http://peterswimm.com/2015/07/16/ich-bin-won-the-turntnes-compo/"/>
+    <id>http://peterswimm.com/2015/07/16/ich-bin-won-the-turntnes-compo/</id>
+    <published>2015-07-16T17:00:14.000Z</published>
+    <updated>2020-03-06T19:02:22.455Z</updated>
+    
+    <content type="html"><![CDATA[<iframe style="border: 0; width: 350px; height: 470px;" src="https://bandcamp.com/EmbeddedPlayer/album=777806189/size=large/bgcol=ffffff/linkcol=e99708/tracklist=false/transparent=true/" seamless><a href="http://hexawe.bandcamp.com/album/turntnes">TURNTNES by HEXAWE</a></iframe><p>I made a track using only <a href="https://doomcloud.bandcamp.com/">Doomcloud</a>‘s NES samples for the <a href="http://hexawe.net/compos/turntnes/">HEXAWE TURNTNES COMPO</a> and it Won! Check out my song and the 17(!) other great tracks on the <a href="https://hexawe.bandcamp.com/album/turntnes">Hexawe Bandcamp</a> <a href="http://hexawe.bandcamp.com/album/turntnes">TURNTNES by HEXAWE</a> Thanks to the artists who voted, <a href="https://soundcloud.com/nostromo">Marc</a> for making this rad tracker, and <a href="http://www.plogue.com/products/chipspeech/">Chipspeech</a> for the vocal assist!</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;iframe style=&quot;border: 0; width: 350px; height: 470px;&quot; src=&quot;https://bandcamp.com/EmbeddedPlayer/album=777806189/size=large/bgcol=ffffff/lin</summary>
+      
+    
+    
+    
+    <category term="Music" scheme="http://peterswimm.com/categories/Music/"/>
+    
+    <category term="Releases" scheme="http://peterswimm.com/categories/Music/Releases/"/>
+    
+    
+    <category term="Compo" scheme="http://peterswimm.com/tags/Compo/"/>
+    
+    <category term="EBM" scheme="http://peterswimm.com/tags/EBM/"/>
+    
+    <category term="Littlegptracker" scheme="http://peterswimm.com/tags/Littlegptracker/"/>
+    
+    <category term="NES" scheme="http://peterswimm.com/tags/NES/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>A Very CIA Torture Report Xmas</title>
+    <link href="http://peterswimm.com/2014/12/16/a-very-cia-torture-report-xmas/"/>
+    <id>http://peterswimm.com/2014/12/16/a-very-cia-torture-report-xmas/</id>
+    <published>2014-12-16T16:34:16.000Z</published>
+    <updated>2020-03-05T14:54:11.862Z</updated>
+    
+    <content type="html"><![CDATA[<p>Don’t waste time on trying to Pandora DJ your Office Holiday party, instead enjoy this 90min CIA Curated Holiday Playlist. Happy New Year!</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;Don’t waste time on trying to Pandora DJ your Office Holiday party, instead enjoy this 90min CIA Curated Holiday Playlist. Happy New Year</summary>
+      
+    
+    
+    
+    <category term="Music" scheme="http://peterswimm.com/categories/Music/"/>
+    
+    
+    <category term="CIA" scheme="http://peterswimm.com/tags/CIA/"/>
+    
+    <category term="Holidays" scheme="http://peterswimm.com/tags/Holidays/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Vampire Greasers From Mars</title>
+    <link href="http://peterswimm.com/2014/10/28/vampire-greasers-from-mars/"/>
+    <id>http://peterswimm.com/2014/10/28/vampire-greasers-from-mars/</id>
+    <published>2014-10-28T17:00:35.000Z</published>
+    <updated>2020-03-06T19:00:11.424Z</updated>
+    
+    <content type="html"><![CDATA[<iframe width="560" height="315" src="https://www.youtube.com/embed/98KH1PDzpHA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><p>My good fiend David Brown posted his high school masterpiece from the late 90’s on the youtubes. You can find some embryonic synth music from me around the 3:00 mark and tons of awesome pathos and vampiric violence before glitter ruined everything.</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/98KH1PDzpHA&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-m</summary>
+      
+    
+    
+    
+    <category term="Releases" scheme="http://peterswimm.com/categories/Releases/"/>
+    
+    <category term="Videos" scheme="http://peterswimm.com/categories/Releases/Videos/"/>
+    
+    
+    <category term="DOD" scheme="http://peterswimm.com/tags/DOD/"/>
+    
+    <category term="Excellent Acting" scheme="http://peterswimm.com/tags/Excellent-Acting/"/>
+    
+    <category term="Six-Trak" scheme="http://peterswimm.com/tags/Six-Trak/"/>
+    
+    <category term="Vampire Greasers" scheme="http://peterswimm.com/tags/Vampire-Greasers/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>A Laser for Lovers: Unknown 80&#39;s Gem Unearthed!</title>
+    <link href="http://peterswimm.com/2014/07/01/a-laser-for-lovers-unknown-80s-gem-unearthed/"/>
+    <id>http://peterswimm.com/2014/07/01/a-laser-for-lovers-unknown-80s-gem-unearthed/</id>
+    <published>2014-07-01T18:00:59.000Z</published>
+    <updated>2020-03-06T19:01:08.304Z</updated>
+    
+    <content type="html"><![CDATA[<iframe style="border: 0; width: 350px; height: 470px;" src="https://bandcamp.com/EmbeddedPlayer/album=1875235510/size=large/bgcol=ffffff/linkcol=f171a2/tracklist=false/transparent=true/" seamless><a href="http://resofame.bandcamp.com/album/a-laser-for-lovers-original-motion-picture-soundtrack-rsfm-0001">A Laser for Lovers - Original Motion Picture Soundtrack (RSFM-0001) by BLEO</a></iframe><p><a href="http://resofame.bandcamp.com/album/a-laser-for-lovers-original-motion-picture-soundtrack-rsfm-0001">A Laser for Lovers - Original Motion Picture Soundtrack (RSFM-0001) by BLEO</a> Available now on <a href="http://web.archive.org/web/20161006155316/http://resofame.com/">Resofame</a> is a project a few years in the making. I served as “executive producer” of the “restoration” of the found audio and included textual archival data. Support my friend Brady Leo and order it today from the Bandcamp link!</p><blockquote><p>Recovered from storage and forgotten about… until NOW: Resofame Recordings’ debut release! This appears to be the completed soundtrack to the never-completed film, A Laser for Lovers. It’s unclear what exactly happened with the film’s failed production. However, in 2012 we discovered a box in an abandoned storage locker containing a VHS cassette the original score (VHS allowed for higher fidelity than cassette), a (presumably) Brazilian trailer with Portuguese subtitles, an original Nintendo Entertainment System cartridge with a test ROM of the game’s intro screen and a folder with script treatments, storyboards and letters to the composer. We have painstakingly digitally restored and archived our findings and after two years of legal negotiations, we are able to share our findings with the rest of the world. BONUS! Each purchase gets a hi-res scan of the official movie poster, storyboards, production notes, Brazilian trailer and the abandoned Nintendo Entertainment System game ROM and NSF (Nintendo Sound File), ripped for your enjoyment!</p></blockquote><p>I have a few download codes to give away, so if you are a DJ, have a radio show or a podcast, or want to share the link with friends and family, hit me up in the comments!</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;iframe style=&quot;border: 0; width: 350px; height: 470px;&quot; src=&quot;https://bandcamp.com/EmbeddedPlayer/album=1875235510/size=large/bgcol=ffffff/li</summary>
+      
+    
+    
+    
+    <category term="Music" scheme="http://peterswimm.com/categories/Music/"/>
+    
+    <category term="Releases" scheme="http://peterswimm.com/categories/Music/Releases/"/>
+    
+    <category term="Scripts" scheme="http://peterswimm.com/categories/Music/Releases/Scripts/"/>
+    
+    <category term="Writing" scheme="http://peterswimm.com/categories/Music/Releases/Scripts/Writing/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>CHRONOFLAME: Blazing Through History</title>
+    <link href="http://peterswimm.com/2014/05/23/chronoflame-blazing-through-history/"/>
+    <id>http://peterswimm.com/2014/05/23/chronoflame-blazing-through-history/</id>
+    <published>2014-05-23T16:51:47.000Z</published>
+    <updated>2020-03-05T14:59:36.164Z</updated>
+    
+    <content type="html"><![CDATA[<p>15-16 years ago, friends of mine participated in this online collaborative thing called ORI Epic, which was basically fanfic for a bunch of bands with mythos like Servotron, Man or Astroman, and Operation Reinformation. Hot on the heels of this, I came up with an idea with a friend of mine <a href="http://www.redbubble.com/people/anatotitan">David Orr</a> about these time traveling firefighters who solve historical fires.   Alas real life took over, and the idea was forgotten but not before this first act was emailed to Mr. <a href="http://www.rickvodicka.com/">Rick Vodicka, </a> who in kind sent it to me this week. I present to you:</p><h2 id="CHRONOFLAME-Blazing-Through-History-working-title"><a href="#CHRONOFLAME-Blazing-Through-History-working-title" class="headerlink" title="CHRONOFLAME: Blazing Through History (working title)"></a>CHRONOFLAME: Blazing Through History (working title)</h2><p>Your characters:</p><ul><li><strong>Bruno</strong>, a firefighter</li><li><strong>Rex</strong>, Bruno’s “partner”</li></ul><p>Supporting characters:</p><ul><li><strong>Moses</strong>, a cranky prophet</li><li><strong>Aaron Hitler</strong>, a European aristocrat</li><li><strong>Jonathan Brushneck</strong>, the Fire Chief who makes his own rules, but hates when you play by yours.</li><li><strong>Joaquim Slinko</strong>, a time travel specialist</li><li><strong>Dildoledes</strong>, a greek scholar in Pompeii and regular bathhouse attendee</li><li><strong>Al Capone</strong>, a mobster and setter of the Great Chicago fire</li><li><strong>Oscar Swellbelly</strong>, the firefighters’ archnemesis</li><li><strong>Pawny Mittens</strong>, Rex and Bruno’s “girlfriend”</li><li><strong>Borromel the Swarthy</strong>, holder of the sacred Encyclopedia Panmillenia</li></ul><h3 id="Act-1-Scene-1"><a href="#Act-1-Scene-1" class="headerlink" title="Act 1 Scene 1"></a>Act 1 Scene 1</h3><p><em>Downtown Dresden, 1945 6:00 PM. Fires ravage the city in the wake of Allied</em> <em>firebombing. Millions of lives are threatened. We see a dark alley in the</em> <em>heart of the city, slowly being covered in soot. All of the sudden, a powerful</em> <em>time machine rolls onto the screen. The pod bay door opens and out step Rex</em> <em>and Bruno.</em> Rex: Looks like a heavy one, Bru. Bruno: Yeah, but nothing we can’t handle… together. <em>(Lingering glance)</em> Rex: HOSE IT! <em>Foam covers the screen. Title sequence begins.</em></p><h3 id="Scene-2"><a href="#Scene-2" class="headerlink" title="Scene 2"></a>Scene 2</h3><p><em>Exterior of a expensive German estate, home of Aaron Hitler, patron to the arts.</em> Hitler: That was a close one… it almost got to the orphanage. Rex: And what’s more, we just barely saved the German poetry archive. Bruno: That was at the orphanage? Hitler: (<em>Distractedly</em>) Yes, yes of course. Bruno: Well, thanks for the hospitality, Mr. AARON Hitler…. Rex: You’re a kindly patron to the arts. Hitler: <em>(A brief intake of air, and then an exhalation of satisfaction)</em> I love children and I treat the oppressed with a gentle bearing. Rex: Indeed, you’re a man’s man. <em>(A short pause to reflect in Herr Hitler’s exuberant benevolence)</em> Hitler: Before you go, you need to see the animals. Bruno: I see two right now! <em>Camera pans to Hitler and Rex, then follows their gaze to look at mounted deer heads.</em> <em>Wipe to time travel sequence…</em></p><h3 id="Scene-3"><a href="#Scene-3" class="headerlink" title="Scene 3"></a>Scene 3</h3><p><em>(Exterior old office park, tattered sign reads Slinko’s lab.)</em> Slinko: <em>(As our heroes enter)</em> This is the best fruit chew ever! Rex: Slinko? Slinko: Welcome back, fellas! The chief wants to see you! Where have you been? I expected you back ten microns ago! <em>(Rex and Bruno stare blankly.</em>) Slinko: Chronos’ Beard! Just a little temporal humor! Get outta my lab! <em>(Cut to chief’s office.</em>) Chief Brushneck: Sit down and close the door. Okay, you two schlemiels. How many times have we been over Timecode Regulation 643A-18? <em>(They smile blandly)</em> Chief Brushneck: <em>(Holds up four fingers)</em> Four times, guys. Four times. Rex: <em>(Bored, distracted, staring at nails)</em> We can explain. Brushneck: I don’t need anymore of your little yuppie-assed explanations. You fools still have no grasp on the dire consequences <em>(dramatic muzik)</em> of your actions while in the Chronozone. We are talking Irreversible damage to the fabric of time… and neither of you have a sewing machine big enough for that job. Bruno: <em>(Standing, Spotlight)</em> My grandmother was 6’2.” Her arms were the limbs of a redwood. She could split an apple in her fist. Once, she gave my entire seventh grade class a whupping we wouldn’t soon forget! I’ll tell you one thing– I’ll never play tether-ball in the orchard again. Brushneck: <em>(Engrossed in the digression, but irritated)</em> Could she sew? Bruno: Oh, yes sir! She could sew circles ‘round ‘most any woman in the county! Even ol’ Hattie McCane was little more than a funhouse reflection in Granny’s chaw-spit when it came to sewing. Fabric of space? P’shaw, I reckon she could sew a half-inch seam in it faster than you can whistle “It’s Raining Men!” Brushneck: Wow… <em>(Thoughtful pause)</em>. You know what… HOW ABOUT YOU SHUT THE FUCK UP? You screw up like this one more time and you are off the squad, for good! And to make sure you don’t drop the ball again, I’m assigning you two another partner. Rex: Who? <em>(Bruno figures it out first, and groans with growing agitation)</em> Brushneck: Borromel? Get your fuzzy ass in here. Rex: The pooch?!?! Brushneck: That’s right. Ladies, allow me to introduce Borromel the Swarthy, holder of the Encyclopedia Panmillenia. If you guys fudge up with this …thing… on your side, I’ll personally tear your Chronolicenses a new pie chute. <em>(Borromel enters with an dramatic flourish)</em> Borromel:  Sir, I must protest. I am currently in the throes of a scientific fit! Research for the next edition of the Encyclopedia is only up to the P’s…  this is of paramount importance. Brushneck: Go tell it on the mountain, poochie. You, Rex, and Bruno are a team. And in the next 24 microhours, you’re leaving for Pompeii, Greece. Now get your bony china-white asses out of this office and into the Chronoprep Bay, ASAPMOFO. Borromel, Rex, Bruno: But… Brushneck: (<em>insistently</em>) GO! <em>To Be Continued… (No it won’t)</em></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;15-16 years ago, friends of mine participated in this online collaborative thing called ORI Epic, which was basically fanfic for a bunch </summary>
+      
+    
+    
+    
+    <category term="Scripts" scheme="http://peterswimm.com/categories/Scripts/"/>
+    
+    <category term="Writing" scheme="http://peterswimm.com/categories/Scripts/Writing/"/>
+    
+    
+    <category term="Chronoflame" scheme="http://peterswimm.com/tags/Chronoflame/"/>
+    
+    <category term="David Orr" scheme="http://peterswimm.com/tags/David-Orr/"/>
+    
+  </entry>
+  
+</feed>
