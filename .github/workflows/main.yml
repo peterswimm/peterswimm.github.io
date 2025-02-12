@@ -13,4 +13,4 @@ jobs:
       with:
         server: ftp.peterswimm.org
         username: hexo@peterswimm.com
-        password: ${{ secrets.ftp_password }}
+        password: ${{ secrets.password }}
