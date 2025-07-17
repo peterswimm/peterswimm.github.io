@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang=en>
+<head>
+    <!-- so meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5" />
+    <meta name="description" content="com&#x2F;wp-content&#x2F;uploads&#x2F;2013&#x2F;01&#x2F;piggyk9d2x">
+<meta property="og:type" content="article">
+<meta property="og:title" content="&quot;Tutorial: Using Soundfonts in Littlegptracker&quot;">
+<meta property="og:url" content="http://peterswimm.com/tutorial-using-soundfonts-in-littlegptracker/index.html">
+<meta property="og:site_name" content="Peter Swimm">
+<meta property="og:description" content="com&#x2F;wp-content&#x2F;uploads&#x2F;2013&#x2F;01&#x2F;piggyk9d2x">
+<meta property="og:locale" content="en_US">
+<meta property="og:image" content="http://www.peterswimm.com/wp-content/uploads/2013/01/piggy_k9d2x.jpg">
+<meta property="og:image" content="http://www.peterswimm.com/wp-content/uploads/2013/01/Soundfonts.png">
+<meta property="article:published_time" content="2013-01-17T01:35:00.000Z">
+<meta property="article:modified_time" content="2025-07-17T20:54:54.948Z">
+<meta property="article:author" content="Peter L. Swimm">
+<meta property="article:tag" content="chiptune">
+<meta property="article:tag" content="hardware">
+<meta property="article:tag" content="midi">
+<meta property="article:tag" content="littlegptracker">
+<meta property="article:tag" content="lgpt">
+<meta property="article:tag" content="music-production">
+<meta property="article:tag" content="tutorial">
+<meta property="article:tag" content="soundfonts">
+<meta property="article:tag" content="piggytracker">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://www.peterswimm.com/wp-content/uploads/2013/01/piggy_k9d2x.jpg">
+    
+    
+      
+        
+          <link rel="shortcut icon" href="/images/favicon.ico">
+        
+      
+      
+        
+          <link rel="icon" type="image/png" href="/images/favicon.ico" sizes="192x192">
+        
+      
+      
+        
+          <link rel="apple-touch-icon" sizes="180x180" href="/images/favicon.ico">
+        
+      
+    
+    <!-- title -->
+    <title>&#34;Tutorial: Using Soundfonts in Littlegptracker&#34;</title>
+    <!-- async scripts -->
+    <!-- Google Analytics -->
+
+
+    <!-- Umami Analytics -->
+
+
+    <!-- styles -->
+    
+<link rel="stylesheet" href="/css/style.css">
+
+    <!-- persian styles -->
+    
+    <!-- rss -->
+    
+    
+      <link rel="alternate" href="/true" title="Peter Swimm" type="application/atom+xml" />
+    
+	<!-- mathjax -->
+	
+<meta name="generator" content="Hexo 7.3.0"></head>
+
+<body class="max-width mx-auto px3 ltr">
+    
+      <div id="header-post">
+  <a id="menu-icon" href="#" aria-label="Menu"><i class="fa-solid fa-bars fa-lg"></i></a>
+  <a id="menu-icon-tablet" href="#" aria-label="Menu"><i class="fa-solid fa-bars fa-lg"></i></a>
+  <a id="top-icon-tablet" href="#" aria-label="Top" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');" style="display:none;"><i class="fa-solid fa-chevron-up fa-lg"></i></a>
+  <span id="menu">
+    <span id="nav">
+      <ul>
+        <!--
+       --><li><a href="/">Home</a></li><!--
+     --><!--
+       --><li><a href="/bio/">bio</a></li><!--
+     --><!--
+       --><li><a href="/archives/">Writing</a></li><!--
+     --><!--
+       --><li><a target="_blank" rel="noopener" href="http://itstoilville.com/">Consulting</a></li><!--
+     -->
+      </ul>
+    </span>
+    <br/>
+    <span id="actions">
+      <ul>
+        
+        <li><a class="icon" aria-label="Previous post" href="/new-arduinoboy-from-xiwi-electronics/"><i class="fa-solid fa-chevron-left" aria-hidden="true" onmouseover="$('#i-prev').toggle();" onmouseout="$('#i-prev').toggle();"></i></a></li>
+        
+        
+        <li><a class="icon" aria-label="Next post" href="/new-net-label-toilville/"><i class="fa-solid fa-chevron-right" aria-hidden="true" onmouseover="$('#i-next').toggle();" onmouseout="$('#i-next').toggle();"></i></a></li>
+        
+        <li><a class="icon" aria-label="Back to top" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');"><i class="fa-solid fa-chevron-up" aria-hidden="true" onmouseover="$('#i-top').toggle();" onmouseout="$('#i-top').toggle();"></i></a></li>
+        <li><a class="icon" aria-label="Share post" href="#"><i class="fa-solid fa-share-alt" aria-hidden="true" onmouseover="$('#i-share').toggle();" onmouseout="$('#i-share').toggle();" onclick="$('#share').toggle();return false;"></i></a></li>
+      </ul>
+      <span id="i-prev" class="info" style="display:none;">Previous post</span>
+      <span id="i-next" class="info" style="display:none;">Next post</span>
+      <span id="i-top" class="info" style="display:none;">Back to top</span>
+      <span id="i-share" class="info" style="display:none;">Share post</span>
+    </span>
+    <br/>
+    <div id="share" style="display: none">
+      <ul>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.facebook.com/sharer.php?u=http://peterswimm.com/tutorial-using-soundfonts-in-littlegptracker/"><i class="fab fa-facebook " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://twitter.com/share?url=http://peterswimm.com/tutorial-using-soundfonts-in-littlegptracker/&text=&#34;Tutorial: Using Soundfonts in Littlegptracker&#34;"><i class="fab fa-twitter " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.linkedin.com/shareArticle?url=http://peterswimm.com/tutorial-using-soundfonts-in-littlegptracker/&title=&#34;Tutorial: Using Soundfonts in Littlegptracker&#34;"><i class="fab fa-linkedin " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://pinterest.com/pin/create/bookmarklet/?url=http://peterswimm.com/tutorial-using-soundfonts-in-littlegptracker/&is_video=false&description=&#34;Tutorial: Using Soundfonts in Littlegptracker&#34;"><i class="fab fa-pinterest " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="mailto:?subject=&#34;Tutorial: Using Soundfonts in Littlegptracker&#34;&body=Check out this article: http://peterswimm.com/tutorial-using-soundfonts-in-littlegptracker/"><i class="fa-solid fa-envelope " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://getpocket.com/save?url=http://peterswimm.com/tutorial-using-soundfonts-in-littlegptracker/&title=&#34;Tutorial: Using Soundfonts in Littlegptracker&#34;"><i class="fab fa-get-pocket " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://reddit.com/submit?url=http://peterswimm.com/tutorial-using-soundfonts-in-littlegptracker/&title=&#34;Tutorial: Using Soundfonts in Littlegptracker&#34;"><i class="fab fa-reddit " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.stumbleupon.com/submit?url=http://peterswimm.com/tutorial-using-soundfonts-in-littlegptracker/&title=&#34;Tutorial: Using Soundfonts in Littlegptracker&#34;"><i class="fab fa-stumbleupon " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://digg.com/submit?url=http://peterswimm.com/tutorial-using-soundfonts-in-littlegptracker/&title=&#34;Tutorial: Using Soundfonts in Littlegptracker&#34;"><i class="fab fa-digg " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.tumblr.com/share/link?url=http://peterswimm.com/tutorial-using-soundfonts-in-littlegptracker/&name=&#34;Tutorial: Using Soundfonts in Littlegptracker&#34;&description="><i class="fab fa-tumblr " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://news.ycombinator.com/submitlink?u=http://peterswimm.com/tutorial-using-soundfonts-in-littlegptracker/&t=&#34;Tutorial: Using Soundfonts in Littlegptracker&#34;"><i class="fab fa-hacker-news " aria-hidden="true"></i></a></li>
+</ul>
+
+    </div>
+    
+    
+      <div id="toc">
+        <ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link" href="#Getting-Started"><span class="toc-number">1.</span> <span class="toc-text">Getting Started</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Features"><span class="toc-number">2.</span> <span class="toc-text">Features</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Drawbacks"><span class="toc-number">3.</span> <span class="toc-text">Drawbacks</span></a></li></ol>
+      </div>
+    
+  </span>
+</div>
+
+    
+    <div class="content index py4 ">
+        
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+  <header>
+    
+    <h1 class="posttitle p-name" itemprop="name headline">
+        &#34;Tutorial: Using Soundfonts in Littlegptracker&#34;
+    </h1>
+
+
+
+    <div class="meta">
+      <span class="author p-author h-card" itemprop="author" itemscope itemtype="http://schema.org/Person">
+        <span class="p-name" itemprop="name">Peter L. Swimm</span>
+      </span>
+      
+    <div class="postdate">
+      
+        <time datetime="2013-01-17T01:35:00.000Z" class="dt-published" itemprop="datePublished">2013-01-16</time>
+        
+      
+    </div>
+
+
+      
+    <div class="article-category">
+        <i class="fa-solid fa-archive"></i>
+        <a class="category-link" href="/categories/Tutorials/">Tutorials</a> › <a class="category-link" href="/categories/Tutorials/Music-Production/">Music Production</a> › <a class="category-link" href="/categories/Tutorials/Music-Production/Conversational-AI/">Conversational AI</a> › <a class="category-link" href="/categories/Tutorials/Music-Production/Conversational-AI/Music/">Music</a> › <a class="category-link" href="/categories/Tutorials/Music-Production/Conversational-AI/Music/Reviews/">Reviews</a> › <a class="category-link" href="/categories/Tutorials/Music-Production/Conversational-AI/Music/Reviews/Releases/">Releases</a> › <a class="category-link" href="/categories/Tutorials/Music-Production/Conversational-AI/Music/Reviews/Releases/Music-Hardware/">Music Hardware</a>
+    </div>
+
+
+      
+    <div class="article-tag">
+        <i class="fa-solid fa-tag"></i>
+        <a class="p-category" href="/tags/chiptune/" rel="tag">chiptune</a>, <a class="p-category" href="/tags/hardware/" rel="tag">hardware</a>, <a class="p-category" href="/tags/lgpt/" rel="tag">lgpt</a>, <a class="p-category" href="/tags/littlegptracker/" rel="tag">littlegptracker</a>, <a class="p-category" href="/tags/midi/" rel="tag">midi</a>, <a class="p-category" href="/tags/music-production/" rel="tag">music-production</a>, <a class="p-category" href="/tags/piggytracker/" rel="tag">piggytracker</a>, <a class="p-category" href="/tags/soundfonts/" rel="tag">soundfonts</a>, <a class="p-category" href="/tags/tutorial/" rel="tag">tutorial</a>
+    </div>
+
+
+    </div>
+  </header>
+  
+
+  <div class="content e-content" itemprop="articleBody">
+    <p><a target="_blank" rel="noopener" href="http://www.peterswimm.com/wp-content/uploads/2013/01/piggy_k9d2x.jpg"><img src="http://www.peterswimm.com/wp-content/uploads/2013/01/piggy_k9d2x.jpg" title="piggy_k9d2x"></a> <em>Updated 04&#x2F;02&#x2F;15: Fixed errors, adding some additional information.</em> One of the more overlooked (and unknown) features of <a target="_blank" rel="noopener" href="http://littlegptracker.com/">Littlegptracker</a> is it’s ability to use <a target="_blank" rel="noopener" href="http://en.wikipedia.org/wiki/SoundFont">soundfonts</a> for audio sources. To help clarify things up I decided to put together a short how-to to cover how it works.</p>
+<h3 id="Getting-Started"><a href="#Getting-Started" class="headerlink" title="Getting Started"></a>Getting Started</h3><p>If you have read the links above you already know what soundfonts and littlegptracker (piggy) are, so let’s focus on what the implementation is like and what you can do. The piggy sample browser does not yet support soundfont browsing, so to create a project you will need:</p>
+<ul>
+<li>To manually create a folder: <em>ex. lgpt_Soundfonts</em></li>
+<li>In this folder create a subfolder name: <em>samples</em></li>
+<li>In this folder copy one soundfont.</li>
+</ul>
+<p>I have posted an example project with samples from the <a target="_blank" rel="noopener" href="http://en.wikipedia.org/wiki/Roland_MT-32">MT-32</a> here: <a target="_blank" rel="noopener" href="http://hexawe.net/mess/sf2/lgptMT32.zip">http://hexawe.net/mess/sf2/lgptMT32.zip</a> You can just unzip and drop this in your project folder to try it out. When you start your piggy project for the first time you will find that whatever soundfont you have loaded now has its instruments assigned to each piggy instrument. <a target="_blank" rel="noopener" href="http://www.peterswimm.com/wp-content/uploads/2013/01/Soundfonts.png"><img src="http://www.peterswimm.com/wp-content/uploads/2013/01/Soundfonts.png" title="Soundfonts"></a> There are a few features&#x2F;drawbacks you should be aware of.</p>
+<h3 id="Features"><a href="#Features" class="headerlink" title="Features"></a>Features</h3><ul>
+<li>If the soundfont has loop points they are automatically selected. You will need to do your own vol fades and kills in the pattern to stop the loop from playing.</li>
+<li>You can adjust the pitch of the sample playing back by adjusting <em>ROOT NOTE</em>.</li>
+<li>Instruments that are multisampled will be layered across the range of the keyboard per the soundfont settings. Drum kits for example will be assigned to each note. String samples will be correctly assigned so the better the quality of your soundfont the more realistic your sample will be.</li>
+<li>You still have the full assortment of bit reducing, and filter options to mangle the sound.</li>
+<li>You can use a combination of soundfont and midi instruments in your project.</li>
+<li>You can change the soundfont sample assigned to each instrument if you want to create different instruments with different filter or panning options. Try adding a filter cut to a cello sound to make it sound like it is coming from farther back in the “room”.</li>
+<li>You can purge instruments to free up instrument slots, the soundfont instruments are still available in your sample pool when browsing.</li>
+<li>All of your non loop based piggy effects commands work, pan, filters, retrig .. go nuts!</li>
+</ul>
+<h3 id="Drawbacks"><a href="#Drawbacks" class="headerlink" title="Drawbacks"></a>Drawbacks</h3><ul>
+<li>You cannot delete or add samples to the soundfont once you start editing it seems. You can always add or remove samples to your font using a tool like <a target="_blank" rel="noopener" href="https://web.archive.org/web/20131011170814/http://www.sf2midi.com/news/vienna-soundfont-studio.html">Vienna</a> for windows or <a target="_blank" rel="noopener" href="http://www.polyphone.fr/">Polyphone</a> for osx</li>
+<li>Larger soundfonts will load slow on handheld devices (sorry psp users!).</li>
+<li>You cannot purge soundfont samples you don’t use from the project to reduce folder size</li>
+<li>Piggy does not support advanced soundfont features like reverb, chorus, or advanced modulations or articulations.</li>
+<li>It will not honor release points, so you have to fade out the loop part, which may sound weird in some fonts</li>
+<li>You can only load three soundfonts per project (but each font can have up to 128 instruments!)</li>
+</ul>
+<p>That is basically all there is. There are millions of <a target="_blank" rel="noopener" href="http://www.hammersound.net/">soundfonts</a> available on the net, so feel free to experiment and report bugs and weirdness on the <a target="_blank" rel="noopener" href="https://web.archive.org/web/20130327213742/http://launch.groups.yahoo.com/group/littlegptracker/">Piggy mailing list</a> or <a target="_blank" rel="noopener" href="http://chipmusic.org/forums/forum/33/littlegptracker/">official forum</a>. To get you started check out this zip of old school soundchip emulation hosted by the fiends at <a target="_blank" rel="noopener" href="http://hexawe.net/">HEXAWE</a>. <a target="_blank" rel="noopener" href="http://hexawe.net/mess/sf2/oldschool.zip">http://hexawe.net/mess/sf2/oldschool.zip</a></p>
+
+  </div>
+</article>
+
+
+
+        
+          <div id="footer-post-container">
+  <div id="footer-post">
+
+    <div id="nav-footer" style="display: none">
+      <ul>
+        
+          <li><a href="/">Home</a></li>
+        
+          <li><a href="/bio/">bio</a></li>
+        
+          <li><a href="/archives/">Writing</a></li>
+        
+          <li><a target="_blank" rel="noopener" href="http://itstoilville.com/">Consulting</a></li>
+        
+      </ul>
+    </div>
+
+    
+    
+      <div id="toc-footer" style="display: none">
+        <ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link" href="#Getting-Started"><span class="toc-number">1.</span> <span class="toc-text">Getting Started</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Features"><span class="toc-number">2.</span> <span class="toc-text">Features</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Drawbacks"><span class="toc-number">3.</span> <span class="toc-text">Drawbacks</span></a></li></ol>
+      </div>
+    
+
+    <div id="share-footer" style="display: none">
+      <ul>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.facebook.com/sharer.php?u=http://peterswimm.com/tutorial-using-soundfonts-in-littlegptracker/"><i class="fab fa-facebook fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://twitter.com/share?url=http://peterswimm.com/tutorial-using-soundfonts-in-littlegptracker/&text=&#34;Tutorial: Using Soundfonts in Littlegptracker&#34;"><i class="fab fa-twitter fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.linkedin.com/shareArticle?url=http://peterswimm.com/tutorial-using-soundfonts-in-littlegptracker/&title=&#34;Tutorial: Using Soundfonts in Littlegptracker&#34;"><i class="fab fa-linkedin fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://pinterest.com/pin/create/bookmarklet/?url=http://peterswimm.com/tutorial-using-soundfonts-in-littlegptracker/&is_video=false&description=&#34;Tutorial: Using Soundfonts in Littlegptracker&#34;"><i class="fab fa-pinterest fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="mailto:?subject=&#34;Tutorial: Using Soundfonts in Littlegptracker&#34;&body=Check out this article: http://peterswimm.com/tutorial-using-soundfonts-in-littlegptracker/"><i class="fa-solid fa-envelope fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://getpocket.com/save?url=http://peterswimm.com/tutorial-using-soundfonts-in-littlegptracker/&title=&#34;Tutorial: Using Soundfonts in Littlegptracker&#34;"><i class="fab fa-get-pocket fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://reddit.com/submit?url=http://peterswimm.com/tutorial-using-soundfonts-in-littlegptracker/&title=&#34;Tutorial: Using Soundfonts in Littlegptracker&#34;"><i class="fab fa-reddit fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.stumbleupon.com/submit?url=http://peterswimm.com/tutorial-using-soundfonts-in-littlegptracker/&title=&#34;Tutorial: Using Soundfonts in Littlegptracker&#34;"><i class="fab fa-stumbleupon fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://digg.com/submit?url=http://peterswimm.com/tutorial-using-soundfonts-in-littlegptracker/&title=&#34;Tutorial: Using Soundfonts in Littlegptracker&#34;"><i class="fab fa-digg fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.tumblr.com/share/link?url=http://peterswimm.com/tutorial-using-soundfonts-in-littlegptracker/&name=&#34;Tutorial: Using Soundfonts in Littlegptracker&#34;&description="><i class="fab fa-tumblr fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://news.ycombinator.com/submitlink?u=http://peterswimm.com/tutorial-using-soundfonts-in-littlegptracker/&t=&#34;Tutorial: Using Soundfonts in Littlegptracker&#34;"><i class="fab fa-hacker-news fa-lg" aria-hidden="true"></i></a></li>
+</ul>
+
+    </div>
+
+    <div id="actions-footer">
+        <a id="menu" class="icon" href="#" onclick="$('#nav-footer').toggle();return false;"><i class="fa-solid fa-bars fa-lg" aria-hidden="true"></i> Menu</a>
+        
+          <a id="toc" class="icon" href="#" onclick="$('#toc-footer').toggle();return false;"><i class="fa-solid fa-list fa-lg" aria-hidden="true"></i> TOC</a>
+        
+        <a id="share" class="icon" href="#" onclick="$('#share-footer').toggle();return false;"><i class="fa-solid fa-share-alt fa-lg" aria-hidden="true"></i> Share</a>
+        <a id="top" style="display:none" class="icon" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');"><i class="fa-solid fa-chevron-up fa-lg" aria-hidden="true"></i> Top</a>
+    </div>
+
+  </div>
+</div>
+
+        
+        <footer id="footer">
+  <div class="footer-left">
+    Copyright &copy;
+    
+    
+    1980-2025
+    Peter L. Swimm
+  </div>
+  <div class="footer-right">
+    <nav>
+      <ul>
+        <!--
+       --><li><a href="/">Home</a></li><!--
+     --><!--
+       --><li><a href="/bio/">bio</a></li><!--
+     --><!--
+       --><li><a href="/archives/">Writing</a></li><!--
+     --><!--
+       --><li><a target="_blank" rel="noopener" href="http://itstoilville.com/">Consulting</a></li><!--
+     -->
+      </ul>
+    </nav>
+  </div>
+</footer>
+
+    </div>
+    <!-- styles -->
+
+
+
+  <link rel="preload" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" crossorigin="anonymous" onload="this.onload=null;this.rel='stylesheet'"/>
+
+
+    <!-- jquery -->
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" crossorigin="anonymous"></script>
+
+
+
+
+<!-- clipboard -->
+
+  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.7/clipboard.min.js" crossorigin="anonymous"></script>
+  
+  <script type="text/javascript">
+  $(function() {
+    // copy-btn HTML
+    var btn = "<span class=\"btn-copy tooltipped tooltipped-sw\" aria-label=\"Copy to clipboard!\">";
+    btn += '<i class="fa-regular fa-clone"></i>';
+    btn += '</span>';
+    // mount it!
+    $(".highlight table").before(btn);
+    var clip = new ClipboardJS('.btn-copy', {
+      text: function(trigger) {
+        return Array.from(trigger.nextElementSibling.querySelectorAll('.code')).reduce((str,it)=>str+it.innerText+'\n','')
+      }
+    });
+    clip.on('success', function(e) {
+      e.trigger.setAttribute('aria-label', "Copied!");
+      e.clearSelection();
+    })
+  })
+  </script>
+
+
+<script src="/js/main.js"></script>
+
+<!-- search -->
+
+<!-- Baidu Analytics -->
+
+<!-- Cloudflare Analytics -->
+
+<!-- Disqus Comments -->
+
+<!-- utterances Comments -->
+
+</body>
+</html>
